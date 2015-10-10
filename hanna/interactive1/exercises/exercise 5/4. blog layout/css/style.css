@@ -1,0 +1,48 @@
+
+
+#bigcontainer {
+	width: 304px;
+	height: 2000px;
+}
+
+.redbox1 {
+	position: relative;
+	width: 300px;
+	height: 70px;
+	background-color: red;
+	float: left;
+	border:2px solid #ffffff;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.redbox2 {
+	position: relative;
+	width: 246px;
+	height: 150px;
+	background-color: red;
+	float: left;
+	border:2px solid #ffffff;
+	margin-top: 20px;
+}
+
+.redbox3 {
+	position: relative;
+	width: 50px;
+	height: 75px;
+	background-color: red;
+	float: left;
+	border:2px solid #ffffff;
+	margin-top: 20px;
+}
+
+
+.redbox4 {
+position: relative;
+width: 246px;
+height: 20px;
+background-color: red;
+float: left;
+border: 2px solid #ffffff;
+}
+

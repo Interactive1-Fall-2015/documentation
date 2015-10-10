@@ -1,0 +1,60 @@
+
+
+
+
+.hugebox {
+	position: relative;
+	width: 270px;
+	height: 700px;
+	float:left;
+}
+
+.redbox1 {
+	position: absolute;
+	width: 50px;
+	height: 300px;
+	background-color: red; 
+	margin: 2px;
+}
+
+.redbox2 {
+	position: absolute;
+	width: 50px;
+	height: 300px;
+	background-color: red; 
+	margin: 2px;
+	top: 50px;
+	left:54px;
+}
+
+
+.redbox3 {
+	position: absolute;
+	width: 50px;
+	height: 300px;
+	background-color: red; 
+	margin: 2px;
+	top: 30px;
+	left:108px;
+}
+
+.redbox4 {
+	position: absolute;
+	width: 50px;
+	height: 300px;
+	background-color: red; 
+	margin: 2px;
+	top: 120px;
+	left:162px;
+}
+
+
+.redbox5 {
+	position: absolute;
+	width: 50px;
+	height: 300px;
+	background-color: red; 
+	margin: 2px;
+	top: 90px;
+	left:216px;
+}

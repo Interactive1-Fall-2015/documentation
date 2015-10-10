@@ -1,0 +1,112 @@
+
+
+
+.redbox1 {
+	position: absolute;
+	width: 100px;
+	height: 150px;
+	background-color: red;
+	margin-left: 0px;
+	margin-top: 0px; 
+}
+
+.redbox2 {
+	position: absolute;
+	width: 50px;
+	height: 250px;
+	background-color: red;
+	margin-left: 150px;
+	margin-top: 400px;
+}
+
+.redbox3 {
+	position: absolute;
+	width: 300px;
+	height: 100px;
+	background-color: red;
+	margin-left: 550px;
+	margin-top: 200px;
+}
+
+.redbox4 {
+	position: absolute;
+	width: 120px;
+	height: 280px;
+	background-color: red;
+	margin-left: 300px;
+	margin-top: 130px; 
+}
+
+.redbox5 {
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	background-color: red;
+	margin-left: 780px;
+	margin-top: 50px;
+}
+
+.redbox6 {
+	position: absolute;
+	width: 60px;
+	height: 30px;
+	background-color: red;
+	margin-left: 450px;
+	margin-top: 400px;
+}
+
+
+.redbox7 {
+	position: absolute;
+	width: 190px;
+	height: 20px;
+	background-color: red;
+	margin-left: 700px;
+	margin-top: 630px; 
+}
+
+.redbox8 {
+	position: absolute;
+	width: 10px;
+	height: 50px;
+	background-color: red;
+	margin-left: 580px;
+	margin-top: 50px;
+}
+
+.redbox9 {
+	position: absolute;
+	width: 20px;
+	height: 100px;
+	background-color: red;
+	margin-left: 40px;
+	margin-top: 350px;
+}
+
+.redbox10 {
+	position: absolute;
+	width: 90px;
+	height: 20px;
+	background-color: red;
+	margin-left: 600px;
+	margin-top: 530px; 
+}
+
+.redbox11 {
+	position: absolute;
+	width: 210px;
+	height: 50px;
+	background-color: red;
+	margin-left: 280px;
+	margin-top: 0px;
+}
+
+.redbox12 {
+	position: absolute;
+	width: 20px;
+	height: 130px;
+	background-color: red;
+	margin-left: 90px;
+	margin-top: 250px;
+}
+

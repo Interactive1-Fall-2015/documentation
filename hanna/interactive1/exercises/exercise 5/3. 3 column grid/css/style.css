@@ -1,0 +1,34 @@
+
+
+#bigcontainer {
+	width: 304px;
+	height: 1000px;
+	margin: auto auto auto auto;
+}
+
+.redbox1 {
+	position: relative;
+	width: 300px;
+	height: 40px;
+	background-color: red;
+	float: left;
+	border:2px solid #ffffff;
+}
+
+.redbox2 {
+	position: relative;
+	width: 300px;
+	height: 10px;
+	background-color: red;
+	float: left;
+	border:2px solid #ffffff;
+}
+
+.redbox3 {
+	position: relative;
+	width: 97px;
+	height: 300px;
+	background-color: red;
+	float: left;
+	border:2px solid #ffffff;
+}

@@ -1,0 +1,33 @@
+body {
+
+}
+
+
+ a {
+
+font-size: 70px;
+color: #2fa5b3;
+text-decoration: none;
+}
+
+
+ a:hover {
+
+font-size: 70px;
+color: purple;
+text-decoration: none;
+background: AliceBlue;
+}
+
+.happystuff p a{
+display:none;
+text-decoration: none;
+}
+
+.happystuff a:hover > p{
+display:block;
+font-size: 70px;
+color: purple;
+text-decoration: none;
+background: AliceBlue;
+}

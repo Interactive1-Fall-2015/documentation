@@ -1,0 +1,63 @@
+
+
+
+.redbox1 {
+	position: relative;
+	width: 48px;
+	height: 98px;
+	background-color: red;
+	float: left;
+	border:1px solid #ffffff;
+}
+
+.redbox2 {
+	position: relative;
+	width: 98px;
+	height: 48px;
+	background-color: red;
+	float: left;
+	border:1px solid #ffffff;
+}
+
+.redbox3 {
+	position: relative;
+	width: 48px;
+	height: 48px;
+	background-color: red;
+	float: left;
+	border:1px solid #ffffff;
+}
+
+#bigcontainer {
+	width: 150px;
+	height: 100px;
+	padding-top: 50px;
+	padding-left: 50px;
+}
+
+#bigcontainer2 {
+	float: left;
+	width: 150px;
+	height: 100px;
+	padding-left: 50px;
+}
+
+
+
+#littlecontainer {
+	width: 50px;
+	height: 100px;
+	position: absolute;
+	left: 208px;
+	top: 58px;
+}
+
+#littlecontainer2 {
+	width: 50px;
+	height: 100px;
+	position: absolute;
+	left: 208px;
+	top: 158px;
+}
+
+

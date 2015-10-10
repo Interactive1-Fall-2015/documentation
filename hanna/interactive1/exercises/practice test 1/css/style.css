@@ -1,0 +1,28 @@
+
+#hello{
+	color:blue;
+	font-size: 15px;
+}
+
+#warm {
+	color:orange;
+	font-size: 15px;
+}
+
+p{
+	font-family: Helvetica;
+	font-weight: thin;
+}
+
+.boxmodel {
+	position: absolute;
+	top:0;
+	left:0;
+	width: 350px;
+	height: 700px;
+	padding: 30px;
+	border: 2px dotted #0088dd;
+	margin: auto auto auto auto;
+	background-color: AliceBlue;
+	text-align: center;
+}

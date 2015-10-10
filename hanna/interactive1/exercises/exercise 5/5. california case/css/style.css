@@ -1,0 +1,83 @@
+
+
+.bigcontainer1 {
+	width: 192px;
+	height: 400px;
+	background-color:red;
+	float:left;
+	padding: 10px;
+}
+
+.container1 {
+	width: 48px;
+	height: 57px;
+	float:left;
+}
+
+.container3 {
+	width: 24px;
+	height: 114px;
+	float:left;
+	}
+
+
+.container2 {
+	width: 192px;
+	height: 114px;
+	float:left;
+	}
+
+
+.container4 {
+	width: 192px;
+	height: 171px;
+	float:left;
+	}
+
+.container5 {
+	width: 144px;
+	height: 171px;
+	float:left;
+	}
+
+
+.tinyred {
+	position: relative;
+	width: 22px;
+	height: 55px;
+	background-color: red;
+	float: left;
+	border:1px solid #ffffff;
+}
+
+
+
+.skinnyred {
+	position: relative;
+	width: 22px;
+	height: 112px;
+	background-color: red;
+	float:left;
+	border:1px solid #ffffff;
+}
+
+
+.mediumred {
+	position: relative;
+	width: 46px;
+	height: 112px;
+	background-color: red;
+	float:left;
+	border:1px solid #ffffff;
+}
+
+#longred {
+	position: relative;
+	width: 46px;
+	height: 169px;
+	background-color: red;
+	float: left;
+	border:1px solid #ffffff;
+}
+
+

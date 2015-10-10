@@ -1,0 +1,24 @@
+
+
+
+.redbox {
+	position: relative;
+	width: 100px;
+	height: 100px;
+	background-color: red;
+	float: left;
+}
+
+.whitebox {
+	position: relative;
+	width: 100px;
+	height: 100px;
+	background-color: white;
+	float: left;
+}
+
+#bigcontainer {
+	width: 800px;
+	height: 1000px;
+}
+

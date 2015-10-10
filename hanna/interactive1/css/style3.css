@@ -1,0 +1,49 @@
+body{
+	
+}
+
+h4{
+	font-family: 'Helvetica Neue', sans-serif;
+	font-weight: 400;
+	font-size: 50px;
+	color: #9a1616;
+}
+
+ul li{
+	list-style-type: none;
+	font-family: 'Helvetica Neue', sans-serif;
+	font-weight: 200;
+	font-size: 40px;
+	color: #ea8b16;
+}
+
+
+h1 {
+
+	font-family: 'Helvetica Neue', sans-serif;
+	font-weight: 200;
+	font-size: 30px;
+	color: #dbb858;
+	text-decoration: none;
+}
+
+
+a {
+	text-decoration: none;
+	list-style-type: circle;
+	font-family: 'Helvetica Neue', sans-serif;
+	font-weight: 200;
+	font-size: 30px;
+	color: #dbb858;
+
+}
+
+.cool {
+	text-decoration: none;
+	list-style-type: none;
+	font-family: 'Helvetica Neue', sans-serif;
+	font-weight: 200;
+	font-size: 20px;
+	color: gray;
+	margin-left: 40px;
+}
