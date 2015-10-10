@@ -32,11 +32,12 @@ section {
 
 section h1 {
     font-size: 2em;
-    border-bottom: 4px solid #f1c232;
-    border-top: 4px solid #f1c232;
+    border-bottom: 3px solid #EADDB4;
+    border-top: 3px solid #EADDB4;
     text-align: center;
     margin-bottom: 10px;
     padding-bottom: 10px;
+    padding-top: 10px;
 }
 
 section div {
