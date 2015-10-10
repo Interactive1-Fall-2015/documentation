@@ -9,6 +9,7 @@ html, body {
 h1, h2 {
    font-family: 'Karla', helvetica, arial, sans-serif;
    font-weight: bold;
+   text-align: center;
 }
 
 header {
