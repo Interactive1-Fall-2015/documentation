@@ -1,0 +1,178 @@
+
+
+body {
+	background: black;
+	
+}
+
+
+
+
+#container {
+	height:2000px;
+	width: 900px;
+	background:black;
+	margin: auto;
+	margin-top:40px;
+}  
+
+
+
+#logocontainer {
+	background: black;
+	top: 60px;
+	left:305px;
+	position: relative;
+}
+
+#mumfordheader {
+	background:black;
+	top:320px;
+
+	position: absolute;
+
+}
+
+
+#textbox1 {
+	background:black;
+	color:white;
+	border-color:orange;
+	border-width: 3px ;
+	top: 900px;
+	width: 900px;
+	position: absolute;
+	font-family: Futura;
+	font-variant: uppercase;
+	letter-spacing: 1em;
+	text-align: center;
+}
+
+#textbox2 {
+	background:red;
+	border-color:orange;
+	border-width: 3px ;
+	top: 900px;
+	width: 900px;
+	position: absolute;
+	font-family: Futura;
+	font-variant: uppercase;
+	text-align: center;
+}
+
+#mumfordimg1 {
+	top:700px;
+	position:absolute;
+	width:900px;
+
+}
+
+#textbox3 {
+	background:red;
+	border-color:orange;
+	border-width: 3px ;
+	top: 2515px;
+	width: 900px;
+	position: absolute;
+	font-family: Futura;
+	font-variant: uppercase;
+	text-align: center;
+}
+
+
+#mumfordimg2 {
+	top:3070px;
+	position: absolute;
+	width:450px;
+}
+
+	#mumfordimg3 {
+	top:2799px;
+	position: relative;
+	width:450px;
+	left:450px;
+
+}
+
+#textbox4 {
+
+	background:red;
+	border-color:orange;
+	border-width: 3px ;
+	top: 3650px;
+	width: 900px;
+	position: absolute;
+	font-family: Futura;
+	font-variant: uppercase;
+	text-align: center;
+
+}
+
+
+#mumfordimg4{
+	top:4095px;
+		width:450px;
+		position:absolute;
+
+
+}
+
+#mumfordimg5{
+	top:3224px;
+	
+    left:450px;
+    position:relative;
+	width:450px;
+	
+}
+
+#textbox5 {
+background:red;
+	border-color:orange;
+	border-width: 3px ;
+	top: 4560px;
+	width: 900px;
+	position: absolute;
+	font-family: Futura;
+	font-variant: uppercase;
+	text-align: center;
+}
+
+#mumfordimg6 {
+	top:5080px;
+	position: absolute;
+	width:900px;
+}
+
+#textbox6 {
+	background:red;
+	border-color:orange;
+	border-width: 3px ;
+	top: 6383px;
+	width: 900px;
+	position: absolute;
+	font-family: Futura;
+	font-variant: uppercase;
+	text-align: center;
+}
+
+
+#mumfordimg8 {
+
+top:6920px;
+	position: absolute;
+	width:900px;
+}
+
+#textbox7 {
+	background:red;
+	border-color:orange;
+	border-width: 3px ;
+	top: 7425px;
+	width: 900px;
+	position: absolute;
+	font-family: Futura;
+	font-variant: uppercase;
+	text-align: center;
+}
+
