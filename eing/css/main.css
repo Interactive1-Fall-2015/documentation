@@ -1,8 +1,35 @@
+#margintop { height: 199px;
+		     background-color: white;
 
-.project1 { font-family: helvetica, san-serif;
+}
+
+
+h1 { font-family: 'Abril Fatface', cursive;
 			color: teal;
+			letter-spacing: -1px;
+			font-weight: lighter;
+			font-size: 29px;
+			margin-left: 33px;
+			text-decoration: none;
+
+}
+
+h2 { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+			color: teal;
+			font-size: 16px;
+			margin-left: 33px;
+			text-decoration: none;
+}
+
+
+
+.project1 { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+			color: teal;
+			font-weight: lighter;
 			font-size: 18px;
 			margin-left: 33px;
+			text-decoration: none;
+
 
 
 }
