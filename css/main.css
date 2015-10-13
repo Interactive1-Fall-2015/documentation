@@ -21,13 +21,6 @@ h1, h2 {
    font-weight: bold;
    text-align: center;
 
-h1, h2 {
-   font-family: 'Karla', helvetica, arial, sans-serif;
-   font-weight: bold;
-}
-
-header {
-    margin: 20px;
 }
 
 header h1 {
