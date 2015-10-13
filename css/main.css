@@ -1,16 +1,16 @@
 html, body {
    font-size: 100%;
    line-height: 1.4;
-<<<<<<< HEAD
+
    background-color: #4C88C9;
-=======
+
    background-color: #000000;
->>>>>>> master
+
    color: white;
     margin: 0;
 }
 
-<<<<<<< HEAD
+
 #spacer {
   width: 300px;
   height: 40px;
@@ -20,11 +20,10 @@ h1, h2 {
    font-family: 'Karla', helvetica, arial, sans-serif;
    font-weight: bold;
    text-align: center;
-=======
+
 h1, h2 {
    font-family: 'Karla', helvetica, arial, sans-serif;
    font-weight: bold;
->>>>>>> master
 }
 
 header {
@@ -38,10 +37,7 @@ header h1 {
 
 h2 {
    font-size: 1em;
-<<<<<<< HEAD
    font-weight: lighter;
-=======
->>>>>>> master
 }
 
 section {
@@ -51,19 +47,16 @@ section {
 
 section h1 {
     font-size: 2em;
-<<<<<<< HEAD
     border-bottom: 3px solid #EADDB4;
     border-top: 3px solid #EADDB4;
     text-align: center;
     margin-bottom: 10px;
     padding-bottom: 10px;
     padding-top: 10px;
-=======
     border-bottom: 4px solid #f1c232;
     text-align: center;
     margin-bottom: 10px;
     padding-bottom: 10px;
->>>>>>> master
 }
 
 section div {
@@ -77,10 +70,7 @@ ul {
     font-family: 'Roboto', helvetica, arial, sans-serif;
     font-size: 1.2em;
     list-style-type: none;
-<<<<<<< HEAD
-=======
     text-transform: uppercase;
->>>>>>> master
     letter-spacing: 0.05em;
     padding: 0;
     text-align: center;
