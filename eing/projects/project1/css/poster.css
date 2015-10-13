@@ -1,0 +1,279 @@
+
+
+.backgroundd {
+  height: 2000px;
+  width: 1416px;
+  background-color: #6590a0;
+  position: absolute;
+
+}
+
+#rotatewhite1 {
+  transform: rotate(25deg);
+}
+
+.white1 {
+  height: 44px;
+  width: 355px;
+  background-color: white;
+  margin-top: 283px;
+  margin-left: 1009px;
+  transform: skewX(82deg);
+  position: absolute;
+}
+
+#rotateblue {
+  transform: rotate(22deg);
+  margin-top: 288px;
+  margin-left: 685px;
+  position: absolute;
+}
+
+.blue {
+  height: 50px;
+  width: 266px;
+  background-color: #11585a;
+  opacity: 0.5;
+  transform: skewX(81deg);
+  position: absolute;
+}
+
+
+#rotatewhite2 {
+  transform: rotate(52deg);
+    margin-top: 944px;
+    margin-left: 1111px;
+    position: absolute;
+}
+.white2 {
+  height: 121px;
+  width: 275px;
+  background-color: white;
+  transform: skewX(64deg);
+}
+
+#rotateorange {
+  transform: rotate(49deg);
+  margin-top: 644px;
+  margin-left: 1088px;
+  position: absolute;
+}
+.orange {
+  height: 144px;
+  width: 299px;
+  background-color: #d18500;
+  opacity: 0.6;
+  position: absolute;
+  transform: skewX(68deg);
+}
+
+
+#rotatewhite3 {
+  transform: rotate(71deg);
+    margin-top: 1515px;
+    margin-left: 988px;
+    position: absolute;
+}
+.white3 {
+  height: 255px;
+  width: 255px;
+  background-color: white;
+  transform: skewX(38deg);
+  }
+
+#rotategreen {
+  transform: rotate(69deg);
+    margin-top: 1348px;
+    margin-left: 998px;
+    position: absolute;
+}
+
+.green {
+  height: 188px;
+  width: 255px;
+  background-color: #4e6702;
+  transform: skewX(49deg);
+  opacity: 0.6;
+}
+
+.white4 {
+  height: 99px;
+  width: 309px;
+  background-color: white;
+  margin-top: 1848px;
+  margin-left: 399px;
+  position: absolute;
+}
+
+.bluwhite {
+  height: 99px;
+  width: 344px;
+  background-color: #6590a0;
+  margin-top: 1788px;
+  margin-left: 377px;
+  position: absolute;
+  transform: rotate(-8deg);
+}
+
+.yel {
+  height: 123px;
+  width: 309px;
+  background-color: #de8d00;
+  margin-top: 1777px;
+  margin-left: 465px;
+  position: absolute;
+  transform: rotate(-13deg) skewX(-15deg);
+  opacity: 0.5;
+}
+
+.bluyel {
+  height: 99px;
+  width: 555px;
+  background-color: #6590a0;
+  margin-top: 1672px;
+  margin-left: 419px;
+  position: absolute;
+  transform: rotate(-23deg);
+}
+
+
+
+
+#text { 
+   margin-left: 9px;
+   position: relative;
+ }
+
+.carl { 
+  font-family: sans-serif;
+   font-size: 66px;
+   position: absolute;
+   margin-top: 1178px;
+   margin-left: 137px;
+ }
+
+ .erica { 
+  font-family: sans-serif;
+   font-size: 66px;
+   position: absolute;
+   margin-top: 1248px;
+   margin-left: 137px;
+ }
+
+ .leitung { 
+  font-family: sans-serif;
+   font-size: 11px;
+   position: absolute;
+   margin-top: 1212px;
+   margin-left: 548px;
+ }
+
+ .violine { 
+  font-family: sans-serif;
+   font-size: 11px;
+   position: absolute;
+   margin-top: 1283px;
+   margin-left: 548px;
+ }
+
+ .beethoven { 
+  font-family: sans-serif;
+   font-size: 66px;
+   position: absolute;
+   margin-top: 1318px;
+   margin-left: 137px;
+ }
+
+  .tonha {
+   font-family: sans-serif;
+   font-size: 10px;
+   position: absolute;
+   margin-top: 1444px;
+   margin-left: 137px;
+ }
+
+.donner { 
+  font-family: sans-serif;
+   font-size: 10px;
+   position: absolute;
+   margin-top: 1477px;
+   margin-left: 137px;
+ }
+
+.wei {
+ font-family: sans-serif;
+   font-size: 10px;
+   position: absolute;
+   margin-top: 1507px;
+   margin-left: 137px;
+ }
+
+ .dor { 
+  font-family: sans-serif;
+   font-size: 10px;
+   position: absolute;
+   margin-top: 1538px;
+   margin-left: 137px;
+ }
+.vier { 
+  font-family: sans-serif;
+   font-size: 10px;
+   position: absolute;
+   margin-top: 1569px;
+   margin-left: 137px;
+ }
+.viot { 
+  font-family: sans-serif;
+   font-size: 10px;
+   position: absolute;
+   margin-top: 1598px;
+   margin-left: 137px;
+ }
+
+.bil { font-family: sans-serif;
+   font-size: 10px;
+   position: absolute;
+   margin-top: 1622px;
+   margin-left: 137px;
+ }
+.kar { 
+  font-family: sans-serif;
+   font-size: 10px;
+   position: absolute;
+   margin-top: 1655px;
+   margin-left: 137px;
+ }
+ .vor { font-family: sans-serif;
+   font-size: 11px;
+   position: absolute;
+   margin-top: 1684px;
+   margin-left: 137px;
+ }
+
+.bee { 
+  font-family: sans-serif;
+   font-size: 10px;
+   position: absolute;
+   margin-top: 1569px;
+   margin-left: 13px;
+ }
+.bra { 
+  font-family: sans-serif;
+   font-size: 10px;
+   position: absolute;
+   margin-top: 1598px;
+   margin-left: 13px;
+ }
+ .stra { font-family: sans-serif;
+   font-size: 10px;
+   position: absolute;
+   margin-top: 1622px;
+   margin-left: 13px;
+ }
+
+
+
+
+
+
+
