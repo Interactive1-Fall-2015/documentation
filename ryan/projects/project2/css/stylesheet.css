@@ -1,0 +1,277 @@
+h1 {
+	font-family: 'Slabo 27px', serif;
+	letter-spacing: .03em;
+	color: #202f50;
+}
+
+h2 {
+	font-family: 'Lato', sans-serif;
+	font-size: 17px;
+	letter-spacing: .05em;
+	font-weight: bolder;
+}
+
+blockquote {
+	font-family: 'Merriweather', serif;
+	font-size: 14px;
+	line-height: 145%;
+	font-weight: lighter;
+}
+
+a {
+	font-family: 'Merriweather', serif;
+	font-size: 14px;
+	line-height: 145%;
+	color: white;
+}
+a:link {
+	color: white;
+	text-decoration: none;
+}
+
+a:visited {
+	color: white;
+}
+
+a:hover {
+	color: #FF00FF;
+}
+
+a:active {
+	color: white;
+}
+
+#title {
+	text-align: center;
+	width: 1200px;
+	padding-top: 20px;
+}
+
+#center {
+	width: 1200px;
+	margin: auto;
+}
+
+#cropmarkrow1 {
+	width: 1200px;
+	height: 25px;
+	float: left;
+	padding-bottom: 5px;
+}
+
+#cropmarkspace1 {
+	width: 25px;
+	height: 20px;
+	float: left;
+}
+
+#cropmark1 {
+	width: 1px;
+	height: 20px;
+	float: left;
+	background-color: black;
+}
+
+#cropmarkspace2 {
+	width: 500px;
+	height: 20px;
+	float: left;
+}
+
+#cropmark2 {
+	width: 1px;
+	height: 20px;
+	float: left;
+	background-color: black;
+}
+
+#cropmarkspace3 {
+	width: 10px;
+	height: 20px;
+	float: left;
+} 
+
+#cropmark3 {
+	width: 1px;
+	height: 20px;
+	float: left;
+	background-color: black;
+}
+
+#cropmarkspace4 {
+	width: 91px;
+	height: 20px;
+	float: left;
+}
+
+#cropmark4 {
+	width: 1px;
+	height: 20px;
+	float: left;
+	background-color: black;
+}
+
+#cropmarkspace5 {
+	width: 9px;
+	height: 20px;
+	float: left;
+}
+
+#cropmark5 {
+	width: 1px;
+	height: 20px;
+	float: left;
+	background-color: black;
+}
+
+#cropmarkspace6 {
+	width: 497px;
+	height: 20px;
+	float: left;
+}
+#cropmark6 {
+	width: 1px;
+	height: 20px;
+	float: left;
+	background-color: black;
+}
+
+#cropmark7 {
+	width: 18px;
+	height: 1px;
+	clear: left;
+	float: left;
+	background-color: black;
+}
+
+#cropmarkspace7 {
+	width: 1130px;
+	height: 1px;
+	float: left;
+}
+
+#cropmark8 {
+	width: 18px;
+	height: 1px;
+	float: left;
+	background-color: black;
+}
+
+#spacebetweencovers {
+	clear: left;
+	width: 2000px;
+	height: 30px;
+}
+
+#colorbar {
+	clear: both;
+	width: 400px;
+	height: 20 px;
+	float: center;
+	margin: auto;
+}
+
+#spaceaftercolorbar {
+	clear:left;
+	width: 2000px;
+	height: 10px;
+}
+
+#backcovertreasureisland {
+	clear: left;
+	width: 480px;
+	height: 754px;
+	border-style: solid;
+	border-width: 1px;
+	float: left;
+	margin-left: 25px;
+	background-color: #202f50;
+	color: white;
+	padding-top: 10px;
+	padding-left: 20px;
+}
+
+#spinetreasureisland {
+	width: 91px;
+	height: 764px;
+	float: left;
+	margin-left: 10px;
+}
+
+#frontcovertreasureisland {
+	width: 500px;
+	height: 764px;
+	float: left;
+	margin-left: 10px;
+}
+
+#backcoverchristmas {
+	clear: left;
+	width: 480px;
+	height: 754px;
+	border-style: solid;
+	border-width: 1px;
+	float: left;
+	margin-left: 25px;
+	background-color: #7f2342;
+	color: white;
+	padding-top: 10px;
+	padding-left: 20px;
+}
+
+#spinechristmas {
+	width: 91px;
+	height: 764px;
+	float: left;
+	margin-left: 10px;
+}
+
+#frontcoverchristmas {
+	width: 500px;
+	height: 764px;
+	float: left;
+	margin-left: 10px;
+}
+
+#backcoverjane {
+	clear: left;
+	width: 480px;
+	height: 754px;
+	border-style: solid;
+	border-width: 1px;
+	float: left;
+	margin-left: 25px;
+	background-color: #342d23;
+	color: white;
+	padding-top: 10px;
+	padding-left: 20px;
+}
+
+#spinejane {
+	width: 91px;
+	height: 764px;
+	float: left;
+	margin-left: 10px;
+}
+
+#frontcoverjane {
+	width: 500px;
+	height: 764px;
+	float: left;
+	margin-left: 10px;
+}
+
+@media screen and (min-width: 480px) { 
+		#wrap{
+			height: 50%;
+			width: 50%;
+			margin: auto;
+		}
+	}
+
+@media screen and (min-width: 320px) { 
+		#wrap{
+			height: 100%;
+			width:100%;
+		}
+	}

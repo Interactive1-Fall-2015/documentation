@@ -1,0 +1,147 @@
+table {
+	-moz-transform: rotate(-45deg);
+	-webkit-transform: rotate(-45deg);
+	-o-transform: rotate(-45deg);
+	-ms-transform: rotate(-45deg);
+	transform: rotate(-45deg);
+	font-family: Helvetica;
+	position: relative;
+	top: 150px;
+	left: -75px;
+	float: right;
+	clear: both;
+}
+
+td {
+	text-align: left;
+	padding: 0px;
+	border: 0px;
+	border-collapse: collapse;
+}
+
+td:hover {
+	background-color: red;
+	color: blue;
+}
+
+p:hover {
+	background-color: yellow;
+	color: blue;
+}
+
+div:hover {
+	background-color: green;
+	color: blue;
+}
+
+span:hover {
+	background-color: orange;
+	color: blue;
+}
+
+.row1 {
+	padding: 0px;
+	border: 0px;
+}
+
+#background {
+  	background-color: #d9d4b9;
+  	width: 850px;
+  	height: 1050px;
+  	margin: auto;
+}
+
+#musicaviva {
+	height: 300px;
+	width: 850px;
+	font-size: 65px;
+	color: black;
+	font-weight: bold;
+	font-family: helvetica;
+	-moz-transform: rotate(-45deg);
+	-webkit-transform: rotate(-45deg);
+	-o-transform: rotate(-45deg);
+	-ms-transform: rotate(-45deg);
+	transform: rotate(-45deg); 
+	clear: both;
+	/*float: right;*/
+	position: fixed;
+	/*margin-top: 2px;*/
+	padding-left: 153px
+}
+
+.runningtext {
+	color: black;
+	font-size: 10px;
+	line-height: .1px;
+	display: block;
+}
+
+/*.musicaviva {
+	font-size: 65px;
+	color: black;
+	font-weight: bold;
+} */
+
+.musicablankspace {
+	font-size: 40px;
+	color: #d9d4b9;
+}
+
+.winfriedzillig {
+	font-size: 65px;
+	color: #d60000;
+	font-weight: bold;
+}
+
+.arminschibler {
+	font-size: 65px;
+	color: #3a357c;
+	font-weight: bold;
+}
+
+.walthergeiser {
+	font-size: 65px;
+	color: #2c085e;
+	font-weight: bold;
+}
+
+.robertogerhard {
+	font-size: 65px;
+	color: #1d6a40;
+	font-weight: bold;
+}
+
+#widencolumna {
+	width: 75px
+}
+#widencolumnb {
+	width: 220px
+}
+
+#widencolumnc {
+	width: 80px;
+}
+
+#row11height {
+	height: 2px;
+}
+
+#row12height {
+	height: 10px;
+}
+
+@media screen and (min-width: 480px) { 
+		#container{
+			height: 50%;
+			width: 50%;
+			margin: auto;
+		}
+	}
+
+@media screen and (min-width: 320px) { 
+		#container{
+			height: 100%;
+			width:100%;
+		}
+	}
