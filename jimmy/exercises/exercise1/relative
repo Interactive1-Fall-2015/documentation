@@ -1,0 +1,13 @@
+File A to File B:
+
+index.html to image.jpg
+img/image.jpg
+
+index.html to jqueryy-2.1.1.min.js
+js/jqueryy-2.1.1.min.js
+
+jqueryy-2.1.1.min.js to main.css
+../css/main.css
+
+main.css to script.js
+../js/script.js

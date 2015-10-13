@@ -1,0 +1,58 @@
+#img {
+	position: absolute;
+	margin: center;
+	opacity: 0.5;
+}
+#qa {
+	top: 100px;
+	margin: auto;
+	width: 510px;
+	position: relative;
+	font-family: Helvetica;
+	padding: 2em;
+
+}
+#columns {
+	top: 190px;
+	margin: auto;
+	width: 510px;
+	min-height: 2em;
+	position: relative;
+	font-family: Helvetica;
+	padding: 2em;
+
+}
+#col1 {
+	height: 2900px;
+	width: 255px;
+	position: absolute;
+	background-color: yellow;
+	opacity: 0.8;
+	float: left;
+}
+#col2 {
+	left: 285px;
+	height: 2900px;
+	width: 255px;
+	position: absolute;
+	background-color: #666;
+	opacity: 0.85;
+	float: left;
+}
+#q {
+	width: 225px;
+	float: left;
+	margin: 1em;
+	font-weight: bold;
+	padding-bottom: 1em;
+}
+#a {
+	width: 225px;
+	float: left;
+	margin: 1em;
+	padding-top: 4px;
+	font-size: small;
+	font-style: lighter;
+	color: white;
+	padding-bottom: 1em;
+}

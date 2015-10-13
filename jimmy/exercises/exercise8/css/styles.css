@@ -1,0 +1,5 @@
+body {
+	height: 800px;
+	background: #466368;
+	background: radial-gradient(cyan, magenta, yellow, black, red, blue, green, white);
+}

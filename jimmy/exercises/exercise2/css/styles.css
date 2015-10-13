@@ -1,0 +1,30 @@
+h4 {
+	font-family: Helvetica, sans-serif;
+	color: magenta;
+}
+
+#author {
+	color: black;
+}
+
+body {
+	margin: auto;
+	background-color: grey;
+	padding: 100px;
+}
+
+p {
+	padding-left: 20px;
+	padding-right: 20px;
+	font-size: 14px;
+	text-align: justify;
+}
+
+ul {
+	font-size: 14px;
+}
+
+h1 {
+	font-family: Helvetica, sans-serif;
+	color: cyan;
+}

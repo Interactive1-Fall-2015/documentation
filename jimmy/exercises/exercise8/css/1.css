@@ -1,0 +1,28 @@
+body {
+	height: 800px;
+	background: linear-gradient(#965789, #123456);
+}
+#container {
+	position: relative;
+	margin: auto;
+	top: 200px;
+	width: 250px;
+	height: 400px;
+	color: white;
+	font-weight: bolder;
+	background-color: black;
+	padding: 2em;
+}
+a:link {
+	color: #FF0000;
+	text-decoration: none;
+}
+a:visited {
+	color: #00FF00;
+}
+a:hover {
+	color: #FF00FF;
+}
+a:active {
+	color: #0000FF;
+}
