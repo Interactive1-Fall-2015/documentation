@@ -19,7 +19,7 @@ body {
     height: 100%;
     z-index: 1;
     opacity: 1.0;
-    background-image: url('file:///Users/kendrameneghetti/Desktop/Interview/Images/Paul-McCartnet-esquire-promo-43.jpg');
+    background-image: url('file:///Users/kendrameneghetti/Desktop/documentation/kendra/projects/project2/Images/Paul-McCartnet-esquire-promo-43.jpg');
     background-repeat: no-repeat;
     background-position: 50% 0;
     -ms-background-size: cover;
@@ -76,7 +76,7 @@ p#rock {
     width: 800px;
     height: 530px;
     left: 200px;
-    background-image: url('file:///Users/kendrameneghetti/Desktop/Interview/Ram%20Scans/yellowtexture.png');
+    background-image: url('file:///Users/kendrameneghetti/Desktop/documentation/kendra/projects/project2/Ram%20Scans/yellowtexture.png');
     background-repeat: no-repeat;
     position: relative;
 }
@@ -101,7 +101,7 @@ p#description {
     height: 900px;
     left: 400px;
     top: -800px;
-    background-image: url('file:///Users/kendrameneghetti/Desktop/Interview/Ram%20Scans/purpletexture.png');
+    background-image: url('file:///Users/kendrameneghetti/Desktop/documentation/kendra/projects/project2/Ram%20Scans/purpletexture.png');
     background-repeat: no-repeat;
     position: relative;
 }
@@ -126,7 +126,7 @@ p#description2 {
     height: 900px;
     left: 640px;
     top: -500px;
-    background-image: url('file:///Users/kendrameneghetti/Desktop/Interview/Images/rambw.png');
+    background-image: url('file:///Users/kendrameneghetti/Desktop/documentation/kendra/projects/project2/Images/rambw.png');
     background-repeat: no-repeat;
     position: relative;
 }
@@ -136,7 +136,7 @@ p#description2 {
     width: 100%;
     height: 2000px;
     background-color: white;
-    background-image: url('file:///Users/kendrameneghetti/Desktop/Interview/Images/grass2.png');
+    background-image: url('file:///Users/kendrameneghetti/Desktop/documentation/kendra/projects/project2/Images/grass2.png');
     background-repeat: no-repeat;
     position: absolute;
 }
@@ -178,7 +178,7 @@ p#description2 {
     height: 1650px;
     left: 840px;
     top: 2450px;
-    background-image: url('file:///Users/kendrameneghetti/Desktop/Interview/Ram%20Scans/redzigzag.png');
+    background-image: url('file:///Users/kendrameneghetti/Desktop/documentation/kendra/projects/project2/Ram%20Scans/redzigzag.png');
     background-repeat: no-repeat;
     position: relative;
 }
@@ -193,7 +193,7 @@ p#description2 {
     height: 2000px;
     z-index: 10;
     opacity: 1.0;
-    background-image: url('file:///Users/kendrameneghetti/Desktop/Interview/Images/mjYG9.jpg');
+    background-image: url('file:///Users/kendrameneghetti/Desktop/documentation/kendra/projects/project2/Images/mjYG9.jpg');
     background-repeat: no-repeat;
     background-position: 50% 0;
     -ms-background-size: cover;
@@ -240,7 +240,7 @@ p#description2 {
     height: 1650px;
     left: -750px;
     top: 3800px;
-    background-image: url('file:///Users/kendrameneghetti/Desktop/Interview/Ram%20Scans/linestexture.png');
+    background-image: url('file:///Users/kendrameneghetti/Desktop/documentation/kendra/projects/project2/Ram%20Scans/linestexture.png');
     background-repeat: no-repeat;
     position: relative;
 }
@@ -256,7 +256,7 @@ p#description2 {
     height: 2000px;
     z-index: 10;
     opacity: 1.0;
-    background-image: url('file:///Users/kendrameneghetti/Desktop/Interview/Images/46.jpg');
+    background-image: url('file:///Users/kendrameneghetti/Desktop/documentation/kendra/projects/project2/Images/46.jpg');
     background-repeat: no-repeat;
     background-position: 20% 20%;
     -ms-background-size: cover;
