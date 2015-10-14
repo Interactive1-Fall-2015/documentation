@@ -1,0 +1,52 @@
+
+body{
+	font-size: 18px;
+	font-family: 'Anonymous Pro', Courier ;
+	line-height: 20px;
+	background-image:url("images/background.jpg");
+	color:black;
+	word-spacing: 2px;
+	
+}
+
+h1{
+	font-family:helvetica;
+	text-align: center;
+	font-size: 80px;
+	color:white;
+}
+
+
+
+h2{
+	
+	font-family: 'VT323';
+	line-height:28px;
+	}
+
+
+#textboxhead{
+	margin:auto;
+	padding:100px;
+	background-color:white;
+	
+}
+
+
+#textbox{
+	border-style:solid;
+	border-width:1px;
+	width: 1000px;
+	margin:auto;
+	padding:50px;
+	background-color:white;
+	
+}
+
+.background{
+	background-image:url(../images/background.jpg);
+	width:1275px;
+}
+
+
+
