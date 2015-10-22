@@ -1,0 +1,39 @@
+body{
+
+line-height: 22px;
+text-decoration: none;
+word-spacing: .25em;
+text-align: left;
+font-size: 20px;
+font-family: "Lao MN";
+font-weight: lighter;
+background-color: grey;
+
+
+}
+
+#head{
+	font-size: 55px;
+	text-align: center;
+	margin-top: 50px;
+	font-family: "SneakersScript-Narrow";
+	padding: 10px;
+	text-align: left;
+}
+
+#container {
+overflow-y:scroll;
+float: left; 
+width: 400px;
+height: 400px;
+background-color:#052F6C;
+padding: 20px;
+margin:2px; 
+margin-top: 10px;
+font-size: 22px;
+color:white;
+border-color: white;
+border-radius: 15px;
+
+}
+
