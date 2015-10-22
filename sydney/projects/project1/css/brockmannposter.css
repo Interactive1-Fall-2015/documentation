@@ -1,0 +1,303 @@
+#purple {
+	width: 552px;
+	height: 778px;
+	background-color: #5C4A83;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+}
+
+/* vertical lines below */
+
+#thick_vert {
+	width: 16px;
+	height: 200px;
+	background-color: white;
+	position: absolute;
+	top: 330px;
+	left: 110px;
+	transform: rotate(30deg);
+
+}
+
+#thinnest_vert {
+	width: 2px;
+	height: 60px;
+	background-color: white;
+	position: absolute;
+	top: 0px;
+	left: 383px;
+	transform: rotate(30deg);
+}
+
+#thinnest_vert2 {
+	width: 2px;
+	height: 140px;
+	background-color: white;
+	position: absolute;
+	top: 150px;
+	left: 270px;
+	transform: rotate(30deg);
+}
+
+#thinnest_vert3 {
+	width: 2px;
+	height: 270px;
+	background-color: white;
+	position: absolute;
+	top: 390px;
+	left: 90px;
+	transform: rotate(30deg);
+}
+
+#thickest_vert {
+	width: 38px;
+	height: 171px;
+	background-color: white;
+	position: absolute;
+	top: 10px;
+	left: 385px;
+	transform: rotate(30deg);
+
+}
+
+#thickest_vert2 {
+	width: 38px;
+	height: 515px;
+	background-color: white;
+	position: absolute;
+	top: 250px;
+	left: 145px;
+	transform: rotate(30deg);
+}
+
+#thin_vert {
+	width: 8px;
+	height: 130px;
+	background-color: white;
+	position: absolute;
+	top: 45px;
+	left: 450px;
+	transform: rotate(30deg);
+}
+
+#thin_vert2 {
+	width: 8px;
+	height: 400px;
+	background-color: white;
+	position: absolute;
+	top: 250px;
+	left:250px;
+	transform: rotate(30deg);
+}
+
+#thinnest_vert4 {
+	width: 2px;
+	height: 230px;
+	background-color: white;
+	position: absolute;
+	top: 35px;
+	left: 455px;
+	transform: rotate(30deg);
+}
+
+#thinnest_vert5 {
+	width: 2px;
+	height: 400px;
+	background-color: white;
+	position: absolute;
+	top: 300px;
+	left: 250px;
+	transform: rotate(30deg);
+}
+
+#thick_vert2 {
+	width: 16px;
+	height: 350px;
+	background-color: white;
+	position: absolute;
+	top: 105px;
+	left: 400px;
+	transform: rotate(30deg);
+}
+
+#thick_vert3 {
+	width: 16px;
+	height: 350px;
+	background-color: white;
+	position: absolute;
+	top: 650px;
+	left: 80px;
+	transform: rotate(30deg);	
+}
+
+
+/* body tex */
+
+#text_group {
+	color: white;
+	font-family: Helvetica;
+	font-size: 9px;
+	position: absolute;
+	top: 500px;
+	left: 300px;
+	transform: rotate(30deg);
+
+}
+
+#text_group2 {
+	color: white;
+	font-family: Helvetica;
+	position: absolute;
+	top:;
+	left:;
+	transform: rotate(30deg);
+}
+
+#text_group3 {
+	color: white;
+	font-family: Helvetica;
+	position: absolute;
+	top:;
+	left:;
+	transform: rotate(30deg);
+}
+
+#text_group4 {
+	color: white;
+	font-family: Helvetica;
+	position: absolute;
+	top:;
+	left:;
+	transform: rotate(30deg);
+}
+
+/* horizontal lines below */
+
+#thinnest_hor {
+	width: 270px;
+	height: 2px;
+	background-color: white;
+	position: absolute;
+	top: 130px;
+	left: 100px;
+	transform: rotate(30deg);
+}
+
+#thinnest_hor2 {
+	width: 270px;
+	height: 2px;
+	background-color: white;
+	position: absolute;
+	top: 355px;
+	left: 500px;
+	transform: rotate(30deg);
+}
+
+#strawinsky {
+	color: white;
+	font-family: Helvetica;
+	font-size: 30px;
+	font-weight: bold;
+	position: absolute;
+	top: 20px;
+	left: 15px;
+	transform: rotate(30deg);
+}
+
+#thickest_hor {
+	width: 260px;
+	height: 30px;
+	background-color: white;
+	position: absolute;
+	top: 169px;
+	left: 95px;
+	transform: rotate(30deg)
+}
+
+#thickest_hor2 {
+	width: 100px;
+	height: 30px;
+	background-color: white;
+	position: absolute;
+	top: 310px;
+	left: 430px;
+	transform: rotate(30deg)
+}
+
+#thinnest_hor3 {
+	width: 250px;
+	height: 2px;
+	background-color: white;
+	position: absolute;
+	top: 190px;
+	left: 60px;
+	transform: rotate(30deg)
+}
+
+#thinnest_hor4 {
+	width: 125px;
+	height: 2px;
+	background-color: white;
+	position: absolute;
+	top: 323px;
+	left: 360px;
+	transform: rotate(30deg)
+}
+
+#berg {
+	color: white;
+	font-family: Helvetica;
+	font-size: 30px;
+	font-weight: bolder;
+	position: absolute;
+	top: 305px;
+	left: 405px;
+	transform: rotate(30deg);
+}
+
+#thinnest_hor5 {
+	width: 125px;
+	height: 2px;
+	background-color: white;
+	position: absolute;
+	top: 200px;
+	left: 48px;
+	transform: rotate(30deg);
+}
+
+#thinnest_hor6 {
+	width: 250px;
+	height: 2px;
+	background-color: white;
+	position: absolute;
+	top: 355px;
+	left: 270px;
+	transform: rotate(30deg);
+}
+
+#fortner {
+	color: white;
+	font-family: Helvetica;
+	font-size: 30px;
+	font-weight: bolder;
+	position: absolute;
+	top: 300px;
+	left: 45px;
+	transform: rotate(30deg);
+}
+
+#tiny_text {
+	color: white;
+	font-family: Helvetica;
+	position: absolute;
+	top:;
+	left:;
+	transform:
+}
+
+/* tiny line text below */
+
+
+
