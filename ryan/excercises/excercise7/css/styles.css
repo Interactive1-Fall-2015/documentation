@@ -1,0 +1,79 @@
+p {
+	font-style: italic;
+	color: blue;
+	line-height: 30px;
+}
+
+h1 {
+	font-style: normal;
+	color: red;
+	font-family: 'Lobster Two', cursive;
+	font-weight: 900; 
+	text-shadow: 4px 7px 20px yellow;
+	letter-spacing: 4px;
+	text-align: right; 
+	font-size: 70px;
+}
+
+h2 {
+	font-style: oblique;
+	color: purple;
+	font-family: 'Bangers', cursive;
+}
+
+h3 {
+	color: green;
+	font-family: Garamond;
+	font-variant: small-caps;
+	word-spacing: 3em;
+	text-align: center;
+}
+
+h4 {
+	color: orange;
+	font-family: Arial;
+	font-variant: small-caps;
+}
+
+h5 {
+	color: yellow;
+	font-family: Impact;
+	font-size: 3em;
+	text-shadow: 4px 7px 2px black;
+	letter-spacing: 4em;
+}
+
+#fourloko {
+	text-transform: uppercase;
+}
+
+#pinterest {
+	color: green;
+	font-size: 2em;
+	text-decoration: overline;
+	text-shadow: 4px 7px 2px orange;
+}
+
+#thundercats {
+	font-size: 2em;
+	text-decoration: line-through;
+	color: green;
+	font-family: 'Special Elite', cursive;
+	text-shadow: 4px 7px 2px purple;
+	/*text-shadow: 1px 10px 4px yellow;*/
+}
+
+#trustfund {
+	font-weight: lighter;
+	color: green;
+}
+
+#brooklyn {
+	text-decoration: underline;
+	color: green;
+}
+
+#swag {
+	text-decoration: overline;
+	color: green;
+}
