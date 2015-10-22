@@ -1,0 +1,32 @@
+body {
+	background-image: url(../images/inky.jpeg); 
+}
+
+#container {
+	width: 900px;
+	height: 500px;
+}
+
+p {
+	color: #FF19F2;
+	font-size: 3em;
+	font-family: 'Lobster', cursive;
+}
+
+a:link {
+	color: #B200A8;
+	text-decoration: none;
+}
+
+a:visited {
+	color: #4FFF00;
+}
+
+a:hover {
+	color: #FF00FF;
+}
+
+a:active {
+	color: #000FFF;
+}
+

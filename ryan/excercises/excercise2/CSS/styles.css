@@ -1,0 +1,75 @@
+body{
+	background-color: #FF00FF;
+}
+
+p{
+	font-family: Verdana, sans-serif;
+	color: blue;
+}
+
+h1{
+	font-family: Times, serif;
+	color: Aqua;
+	text-align:center;
+}
+
+h2{
+	font-family: Arial, sans-serif;
+	color: #CC99FF;
+}
+
+h3{
+	font-family: Georgia, sans-serif;
+	color: #00FF33;
+}
+
+ul{
+	font-family: Helvetica, sans-serif;
+	color: yellow;
+}
+#author p{
+	text-align: right;
+	color: white;
+	height: 50px;
+	width: 1000px;
+	background-color: purple;
+	margin: 100px;
+	padding: 50px;
+}
+#box {
+	text-align: right;
+	color: white;
+	height: 50px;
+	width: 1000px;
+	background-color: yellow;
+	margin: 100px;
+	padding: 50px;
+}
+#boxsmall {
+	text-align: right;
+	color: white;
+	height: 20px;
+	width: 500px;
+	background-color: orange;
+	margin: 80px;
+	padding: 20px;
+}
+#boxcat p {
+	text-align: right;
+	color: black;
+	height: 30px;
+	width: 300px;
+	background-color: white;
+	margin: 80px;
+	padding: 20px;
+}
+
+#boxguin p {
+	text-align: right;
+	color: black;
+	height: 30px;
+	width: 300px;
+	background-color: white;
+	margin: 80px;
+	padding: 20px;
+}
