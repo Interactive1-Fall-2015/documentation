@@ -1,0 +1,20 @@
+body { font-style: oblique;
+	   background-color: dimgray;
+	   color: white;
+	   text-decoration: overline;
+	   text-transform: lowercase;
+	   text-shadow: 1px 1px 3px aquamarine;
+	   word-spacing: 0.5em;
+	   text-align: left;
+
+}
+
+h1 { text-shadow: 1px 1px 4px salmon;
+	 letter-spacing: 1em;
+
+}
+
+h2 {text-shadow: 1px 1px 4px goldenrod;
+	text-align: justify;
+
+}

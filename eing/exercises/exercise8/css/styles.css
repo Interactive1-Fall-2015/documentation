@@ -1,0 +1,28 @@
+body { background: #slategray;
+background: linear-gradient(to left, slategray, salmon);
+width: 123px;
+
+}
+
+p {color: white;
+}
+
+#container { font-size: 44px;
+	font-family: sans-serif;
+	text-align: right;
+	margin-left: 892px;
+
+}
+
+a:link { color: sandybrown;
+	text-decoration: none;
+}
+
+a:visited { color: lightblue;
+}
+
+a:hover { color: teal;
+}
+
+a:active { color: black;
+}

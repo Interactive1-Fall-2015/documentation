@@ -1,0 +1,24 @@
+body { background-image: url(../images/moon.jpg);
+
+}
+
+p {color: goldenrod;
+	font-size: 29pt;
+	margin-top: 300px;
+	margin-left: 400px;
+	font-family: sans-serif;
+
+}
+
+a:link { color: tomato;
+	text-decoration: none;
+}
+
+a:visited { color: indianred;
+}
+
+a:hover { color: lightpink;
+}
+
+a:active { color: white;
+}

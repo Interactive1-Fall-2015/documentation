@@ -1,0 +1,30 @@
+body { background: #slategray;
+background: linear-gradient(to right, goldenrod, gold, yellowgreen , turquoise, palevioletred, salmon);
+
+
+}
+
+p {color: white;
+	margin-top: 299px
+
+}
+
+#container {
+	font-family: monospace;
+	font-weight: lighter;
+	font-size: 33px;
+	text-align: center;
+}
+
+a:link { color: yellow;
+	text-decoration: none;
+}
+
+a:visited { color: lightcoral;
+}
+
+a:hover { color: gold;
+}
+
+a:active { color: red;
+}
