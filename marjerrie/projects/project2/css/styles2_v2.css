@@ -1,0 +1,30 @@
+body{
+	background-image: url(../images/main.jpg);
+	background-repeat: no-repeat, center center fixed; 
+  	-webkit-background-size: cover;
+ 	 -moz-background-size: cover;
+ 	 -o-background-size: cover;
+  	background-size: cover;
+}
+
+p{
+	font-family: "Neuton", "Palatino", serif;
+	font-weight: 200;
+	font-size: .8em;
+}
+
+#container{
+	margin-top: 85px;
+	margin-left: 715px;
+	width: 300px;
+	height: 400px;
+	padding: 20px;
+	overflow: scroll;
+	background-color: white;
+}
+
+.question{
+	font-variant: small-caps;
+	font-weight: 400;
+	font-size: 1em;
+}

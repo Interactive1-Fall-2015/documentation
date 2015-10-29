@@ -1,0 +1,116 @@
+body{
+	background-image: url(../images/ccbw1-2.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	/*background-position: 80px 40px;
+	margin: auto;*/
+}
+
+
+p{
+	font-family: "Neuton", "Palatino", serif;
+	font-weight: 200;
+	font-size: .8em;
+	line-height: 1.5em;
+	margin: .8em; 
+}
+
+#navbar{
+	margin-left: 639px;
+	width: 75px;
+	height: 100px;
+	background-color: white;
+	float: left;
+	margin-right: 10px;
+	clear: none;
+}
+
+#container{
+	margin-top: 85px;
+	margin-left: 691px;
+	width: 300px;
+	height: 400px;
+	padding: 20px;
+	overflow: scroll;
+	background-color: white;
+	clear: none;
+}
+
+#disc{
+	width: 80px;
+	height: 23px;
+	margin-left: 724px;
+	background-color: white;
+	font-weight: 400;
+	clear: none;
+}
+
+#container_1{
+	margin-top: 15px;
+	margin-left: 724px;
+	float: left;
+}
+
+#container_2{
+	margin-top: 15px;
+	margin-left: 790px;
+	clear: none;
+}
+
+#container_3{
+	margin-top: -55px;
+	margin-left: 855px;
+}
+
+#container_4{
+	margin-top: -55px;
+	margin-left: 920px;
+}
+
+#container_5{
+	margin-top: -55px;
+	margin-left: 985px;
+}
+
+.question{
+	font-weight: 400;
+	font-size: .9em;
+	line-height: 1.25em;
+	margin-top: 1.5em;
+	word-spacing: 0.1em;
+	letter-spacing: .75px;
+	color: #175a8f;
+	font-style: italic;
+}
+
+.question_a{
+	font-weight: 400;
+	font-size: .9em;
+	line-height: 1.25em;
+	margin-top: 4px;
+	word-spacing: 0.1em;
+	letter-spacing: .75px;
+	color: #175a8f;
+	font-style: italic;
+}
+
+.etc{
+	color: #175a8f;
+}
+
+a:link{
+	color: #b05e2f;
+	/*color: #088A08;*/
+	text-decoration: none;
+	text-align: center;
+}
+
+a:hover{
+	color: #c9965d;
+	/*color: #A4A4A4;*/
+}
+
+a:visited{
+	color: #A4A4A4;
+	text-decoration: line-through;
+}

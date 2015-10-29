@@ -1,0 +1,64 @@
+body{
+	background-image: url(../images/ccbw6.jpg);
+	background-repeat: no-repeat;
+ 	background-size: 100%;
+	/*margin: auto;*/
+}
+
+/* img.bg{
+	min-height: 100%;
+	min-width: 1024px;
+	width: 100%;
+	height: auto;
+	position: fixed;
+	top: 0;
+	left: 0;
+}*/
+
+
+p{
+	font-family: "Neuton", "Palatino", serif;
+	font-weight: 200;
+	font-size: .8em;
+	line-height: 1.5em;
+	margin: .8em;
+}
+
+#navbar{
+	margin-left: 639px;
+	margin-right: 10px;
+	width: 75px;
+	height: 100px;
+	background-color: white;
+	float: left;
+}
+
+#container{
+	margin-top: 85px;
+	margin-left: 691px;
+	width: 300px;
+	height: 400px;
+	padding: 20px;
+	overflow: scroll;
+	background-color: white;
+	clear: none;
+}
+
+
+
+a:link{
+	color: #b05e2f;
+	/*color: #088A08;*/
+	text-decoration: none;
+	text-align: center;
+}
+
+a:hover{
+	color: #c9965d;
+	/*color: #A4A4A4;*/
+}
+
+a:visited{
+	color: #A4A4A4;
+	text-decoration: line-through;
+}
