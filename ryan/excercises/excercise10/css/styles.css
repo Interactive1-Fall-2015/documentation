@@ -1,0 +1,153 @@
+/* This is the animation code. */
+@-webkit-keyframes example {
+   from { transform: scale(2.0); }
+   to   { transform: scale(1.0); }
+}
+
+/* This is the element that we apply the animation to. */
+.colorbox {
+   -webkit-animation-name: example;
+   -webkit-animation-duration: 1s;
+   -webkit-animation-timing-function: ease; /* ease is the default */
+   -webkit-animation-delay: 1s;             /* 0 is the default */
+   -webkit-animation-iteration-count: 2;    /* 1 is the default */
+   -webkit-animation-direction: alternate;  /* normal is the default */
+   margin-left: 200px;
+   margin-top: 200px;
+   height: 300px;
+   width: 300px;
+   background: blue;
+   animation-iteration-count: infinite;
+}
+
+
+/*@keyframes slide {
+  0% {
+    left: 0;
+    top: 0;
+  }
+  50% {
+    left: 244px;
+    top: 100px;
+  }
+  100% {
+    left: 488px;
+    top: 0;
+  }
+}
+/*.background {
+  background: #33348e;
+  border-radius: 20px;
+  height: 300px;
+  position: relative;
+  min-width: 1000px;
+}
+
+.background:hover .dot{
+  animation: slide 2s linear;
+}
+
+.dot {
+  background: #e0b01c;
+  border-radius: 50%;
+  height: 50px;
+  position: absolute;
+  width: 50px;
+}
+
+
+.background2 {
+  background: #0d8def;
+  border-radius: 30px;
+  height: 300px;
+  position: relative;
+  min-width: 538px;
+  width: 600px;
+}
+
+.background2:hover .dot2 {
+  animation-name: slide;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-delay: .5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.dot2 {
+  background: #efd70d;
+  border-radius: 50%;
+  height: 50px;
+  position: absolute;
+  width: 50px;
+}
+*/
+
+
+/*
+.colorbox {
+  width: 100%;
+  height: 100%;
+  animation: pulse 5s infinite;
+}
+
+
+
+@keyframes pulse {
+  0% {
+    background-color: #001F3F;
+  }
+  100% {
+    background-color: #FF4136;
+  }
+}
+
+
+html,
+body {
+  height: 100%;
+}
+
+
+.colorbox {
+  height: 250px;
+  width: 250px;
+  margin: 0 auto;
+  background-color: red;
+  animation-name: stretch;
+  animation-duration: 1.5s; 
+  animation-timing-function: ease-out; 
+  animation-delay: 0;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  animation-fill-mode: none;
+  animation-play-state: running;
+}
+
+
+@keyframes stretch {
+  0% {
+    transform: scale(.3);
+    background-color: #f4d112;
+    border-radius: 100%;
+  }
+  50% {
+    background-color: #0fdf45;
+  }
+  100% {
+    transform: scale(1.5);
+    background-color: #28b4e8;
+  }
+}
+
+body,
+html {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #000000;
+}
