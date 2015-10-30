@@ -1,0 +1,315 @@
+body { 
+	background-color: white; 
+	font-family: 'Droid Sans', sans-serif; 
+	color: black; 
+	font-size: 12px; 
+}
+
+h1 { 
+	margin: 0px; 
+	color: #AEEE00; 
+	font-size: 35px; 
+	letter-spacing: 2px; 
+	font-weight: normal; 
+}
+
+h2 { 
+	margin: 0px; 
+	color: #01B0F0; 
+	font-weight: normal; 
+	font-size: 12px;
+}
+
+h3 {
+	margin: 0px; 
+	color: #01B0F0; 
+	font-size: 20px; 
+	letter-spacing: 2px; 
+	font-weight: normal; 
+}
+
+p { 
+	margin: 0px 0px 0px 0px;  
+	line-height: 160%;
+}
+
+a img { 
+	border: none; 
+}
+
+a { 
+	color: #01B0F0; 
+}
+
+.aboutspace {
+	height: 5px;
+}
+
+.aboutspace2 {
+	height: 30px;
+}
+
+a:hover { 
+	color: #FF358B; 
+	}
+
+a.contactLink { 
+	font-size: 12px; 
+	padding: 0px 0px 0px 0px; 
+	text-transform: uppercase; 
+	text-decoration: none;
+	color: #01B0F0;
+}
+
+a.contactLink:hover {
+	color: #FF358B;
+}
+
+a.about {
+	text-decoration: none;
+	color: #01B0F0;
+}
+
+a.about:hover {
+	color: #FF358B;
+}
+
+a.zoom { 
+	font-size: .8em; 
+	padding: 0px 0px 5px 20px; 
+	text-transform: uppercase; 
+	text-decoration: none 
+}
+
+/*.leftmargin {
+	width: 50px;
+	height: 150px;
+} */
+
+
+.buttoncontainer {
+	margin-top: 30px;
+	width: 100px;
+	float: left;
+}
+
+.fakebuttoncontainer {
+	margin-top: 30px;
+	width: 100px;
+	height: 400px;
+	float: left;
+}
+
+.spacer {
+	height: 10px;
+}
+
+input[type=search] {
+  -webkit-appearance: none;
+}
+
+.buttonspace {
+	height: 10px
+	width: 80px;
+}
+
+.allstickerbutton {
+  width: 80px;
+  height: 20px;
+  padding: 0;
+  font-size: 12px;
+  color: #333333;
+  text-align: left;
+  background: white;
+  border: 0;
+  border-bottom: 2px solid #01B0F0;
+  cursor: pointer;
+}
+.allstickerbutton:active {
+  top: 1px;
+  outline: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+.about_content {
+	margin-left: 131px;
+}
+
+
+.allstickerbutton:hover {
+  	color: #FF358B;
+  	text-decoration: none;
+}
+
+.fruitbutton {
+  width: 80px;
+  height: 20px;
+  padding: 0;
+  font-size: 12px;
+  color: #333333;
+  text-align: left;
+  background: white;
+  border: 0;
+  border-bottom: 2px solid #01B0F0;
+  cursor: pointer;
+}
+
+.fruitbutton:hover {
+	color: #FF358B;
+ 	text-decoration: none;
+}
+
+.vegetablebutton {
+  width: 80px;
+  height: 40px;
+  padding: 0;
+  font-size: 12px;
+  color: #333333;
+  text-align: left;
+  background: white;
+  border: 0;
+  border-bottom: 2px solid #01B0F0;
+  cursor: pointer;
+}
+
+.vegetablebutton:hover {
+	color: #FF358B;
+  	text-decoration: none;
+}
+
+.clear_both { 
+	clear: both; 
+	line-height: 1px; 
+}
+
+.gallery_data { 
+	padding: 40px; 
+	display: none; 
+}
+
+.gallery_preload_area { 
+	display: none; 
+}
+
+.gallery_container { 
+	clear: left;
+	width: 1060px; 
+	margin: 20px auto 0px auto; 
+}
+
+.gallery_credit { 
+	margin: 20px 0px 10px 130px; 
+	float: left; 
+	width: 425px; 
+}
+
+.gallery_type { 
+	margin: 30px 0px 10px 0px; 
+	float: left; 
+	width: 443px; 
+	text-align: right; 
+	padding: 4px 0px 0px 0px; 
+}
+
+.gallery_top {
+	margin: 0px;
+	padding: 0px;
+	height: 20px;
+}
+.gallery_content {
+	margin: 0px;
+	padding: 15px 0px 1px 0px;
+}
+
+.about_gallery_content {
+	margin: 0px;
+	padding: 15px 0px 1px 0px;
+	width: 800px;
+}
+.gallery_bottom {
+	margin: 0px;
+	padding: 0px;
+	height: 0px;
+}
+.gallery_thumbnails { 
+	width: 500px; 
+	margin-left: 20px; 
+	float: left; 
+	height: 380px;
+	/*clear: all; */
+}
+
+.gallery_thumbnails a {
+	display: block;
+	height: 75px;
+	width: 75px;
+	float: left;
+	border: 1px solid white; 
+	margin: 0px 23px 23px 0px;
+	/*position: relative;*/
+}
+
+.gallery_thumbnails a:hover { 
+	border-color: #FF358B; 
+}
+
+.gallery_thumbnails a.selected { 
+	border-color: #01B0F0; 
+}
+
+.gallery_preview { 
+	width: 375px; 
+	height: 375px; 
+	float: left; 
+}
+
+.gallery_preview a { 
+	display: block; 
+	width: 375px; 
+	height: 375px; 
+	border: 1px solid #01B0F0; 
+}
+
+.gallery_preview a:hover { 
+	border-color: #FF358B; 
+}
+
+.gallery_contact { 
+	width: 555px; 
+	height: 50px; 
+	margin-left: 40px; 
+	padding-right: 23px; 
+	float: left; 
+	text-align: right; 
+}
+
+.gallery_caption { 
+	width: 375px;
+	height: 0px; 
+	float: left; 
+	font-size: 15px;
+	margin-top: 0px;
+	padding-top: 0px;
+}
+
+.gallery_data { 
+	display: block 
+}
+
+.gallery_thumbnails { 
+	width: auto; 
+}
+
+.gallery_preview { 
+	display: none; 
+}
+
+.gallery_caption { 
+	display: none; 
+} 
+
+.topaboutspace {
+	height: 100px;
+	width: 500px;
+}
