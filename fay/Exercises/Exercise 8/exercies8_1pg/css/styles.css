@@ -1,0 +1,21 @@
+
+body {
+	/* background-image: url(../images/fruits.jpg); 
+	 background-repeat: repeat-x;
+	 background-positon: 80px 10px;
+	height: 700px; */
+	/*background-color: pink; */
+ 	color: white;
+ 	line-height:25px;
+	background: #436310;
+	/*background: radial-gradient( #c61531, #ff7502);*/
+	background: linear-gradient(to right, #290f99 .5%, #c61531 45%, #ff7502);
+
+	/*background: -webkit-linear-gradient(#519459, #293f50);
+	background: -moz-linear-gradient(#519459, #293f50); */
+}
+
+#container {
+	width: 800px;
+	height: 500px;
+}

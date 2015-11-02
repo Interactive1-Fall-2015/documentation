@@ -1,0 +1,28 @@
+body {
+
+	background-image: url(../images/narwhal-04.jpg); 
+	background-repeat: repeat;
+	background-positon: 80px 10px;
+	height: 700px;
+	color: white;
+	font-size: 50px;
+	font-family: 'Lobster', cursive;
+	margin-top:275px;
+}
+
+a:link {
+	color: #00FCD7;
+	text-decoration: none;
+}
+
+a:visited {
+	color: #00FF00;
+}
+
+a:hover {
+	color: #cdf209;
+}
+
+a:active {
+	color: #0000FF;
+}

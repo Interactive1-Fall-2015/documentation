@@ -1,0 +1,23 @@
+body {
+	background: linear-gradient(to right, #290f99 .5%, #c61531 45%, #ff7502);
+	color: white;
+	font-size: 100px;
+	font-family: 'Fugaz One', cursive;
+	}
+
+a:link {
+	color: #00FCD7;
+	text-decoration: none;
+}
+
+a:visited {
+	color: #00FF00;
+}
+
+a:hover {
+	color: #008080;
+}
+
+a:active {
+	color: #0000FF;
+}

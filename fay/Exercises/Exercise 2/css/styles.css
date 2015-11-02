@@ -1,0 +1,52 @@
+body{
+	background-color:plum;
+}
+
+
+
+p{
+	font-family: "Poiret One", Helvetica, sans-serif;
+	color: navy;
+	line-height: 1.5em;
+}
+#container {
+	height:100px;
+	width:100px;
+	margin: 30px;
+	padding: 50px;
+}
+
+#title {
+	font-family:times, georgia, serif;
+	color:teal;
+	background-color:aquamarine;
+	padding-left: 300px;
+}
+
+#headers {
+	font-family: Arial, Helvetica, sans-serif;
+	color:teal;
+}
+
+#contrastone {
+	font-family: Arial, Helvetica, sans-serif;
+	color:white;
+	background-color:slateblue;
+	text-align:left;
+	margin-bottom: 60px;
+}
+
+#contrasttwo {
+	font-family:monospace;
+	color:green;
+	background-color:yellow;
+	text-align:right;
+	margin-left:100px;
+}
+
+#list {
+	font-family: fantasy;
+	color:yellow;
+	margin:100px;
+}
+

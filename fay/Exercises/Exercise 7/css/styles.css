@@ -1,0 +1,30 @@
+#x { 
+
+	font-style: oblique;
+	font-family: helvetica, sans-serif;
+	text-decoration: overline;
+	text-align:right;
+
+}
+
+#y {
+
+	font-style:normal;
+	text-decoration: inherit;
+	letter-spacing:10em;
+
+}
+
+#z {
+	font-size: 50px;
+	font-variant: small-caps;
+	font-weight: lighter;
+	font-family: 'Slabo 27px', serif;
+	text-shadow: 2px 2px 12px #334563;
+	text-align: center;
+}
+
+#f {
+	text-transform: lowercase;
+
+}
