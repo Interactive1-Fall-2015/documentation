@@ -1,0 +1,30 @@
+ 
+#god{float:left;
+
+	
+}
+
+h1 {position: center;
+	text-align: center;
+
+}
+
+
+ #tanbox2 {
+ 	float:left;
+ 	width:200px;
+ 	height: 550px;
+ 	background:#e3e8ca;
+ 	border-color:#f7fae8;
+ 	border-width:10px;
+ }
+
+ #tanbox3 {
+ 	width:200px;
+ 	height: 350px;
+ 	background:#e3e8ca;
+ 	border-color:#f7fae8;
+ 	border-width:10px;
+
+
+ }

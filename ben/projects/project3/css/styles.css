@@ -1,0 +1,171 @@
+
+
+
+body {
+    background-color: #e3e8ca;
+}
+
+h1 {
+	text-align: center;
+    color:#f7fae8;
+    position: center;
+}
+
+#god {
+	width: 520px;
+  margin: auto;
+}
+
+
+#coinpool {
+	z-index: 1;
+
+
+}
+
+#maincointvector{
+	left:1500px;
+	z-index: 2;
+}
+
+/*
+#coincontainer1
+{
+position: relative;
+top: -85px;
+margin: auto;
+width: 100px;
+height: 100px;
+}
+*/
+
+/*
+#coincontainer1
+{
+position: relative;
+left: -20px;
+top: -212px;
+margin: auto;
+width: 100px;
+height: 100px;
+z-index: 1;
+}
+*/
+
+#coincontainer1{
+	width:100px;
+	height:100px;
+	margin-top: 500px;
+}
+
+#silverdollar {
+	width:134px;
+	height:122px;
+	position: relative;
+	left: -230px;
+	top: -1082px;
+	margin: auto;
+	width: 100px;
+	height: 100px;
+	z-index: 1;
+}
+
+
+#silverpenny2 {
+	width:134px;
+	height:122px;
+	position: relative;
+	left: -12px;
+	top: -1305px;
+	margin: auto;
+	width: 100px;
+	height: 100px;
+	z-index: 1;
+}
+
+
+#nickel1 {
+		width:134px;
+	height:122px;
+	position: relative;
+	left: 220px;
+	top: -1270px;
+	margin: auto;
+	width: 100px;
+	height: 100px;
+	z-index: 1;
+}
+
+
+#dime1 {
+	width:137px;
+	height:129px;
+	position: relative;
+	left: 237px;
+	top: -1093px;
+	margin: auto;
+	width: 100px;
+	height: 100px;
+	z-index: 1;
+}
+
+#quarter1 {
+	width:112px;
+	height:112px;
+	position: relative;
+	left: -230px;
+	top: -782px;
+	margin: auto;
+	width: 100px;
+	height: 100px;
+	z-index: 1;
+}
+
+
+#quarter3 {
+	width:137px;
+	height:129px;
+	position: relative;
+	left: 15px;
+	top: -1070px;
+	margin: auto;
+	width: 100px;
+	height: 100px;
+	z-index: 1;
+}
+
+#halfdollar {
+	width:137px;
+	height:129px;
+	position: relative;
+	left: -235px;
+	top: -1330px;
+	margin: auto;
+	width: 100px;
+	height: 100px;
+	z-index: 1;
+
+}
+
+
+}
+/*
+#silverdollar1a
+{
+bottom: 600px;
+
+}
+
+#coincontainer4 {
+	bottom: 1950px;
+	left: 240px;
+	
+}
+
+.circle {
+	background: black;
+	height: 300px;
+	width: 300px;
+	border-radius: 50%;
+}
+*/
