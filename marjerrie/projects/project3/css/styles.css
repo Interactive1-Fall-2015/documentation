@@ -1,0 +1,166 @@
+body{
+	background: linear-gradient(#000000, #28313A, #506273, #85a4c0, #9fb5c2, #bac5c1, #f0d9b7, #fee6aa, #fff9ab);
+	height:766px;
+}
+
+p{
+	font-family: 'Ubuntu Condensed', sans-serif;
+}
+
+h1{
+	font-family: 'Ubuntu Condensed', sans-serif;
+	font-size: 2em;
+	color: white;
+	text-align: center;
+	letter-spacing: 2px;
+	word-spacing: 3px;
+}
+
+#box{
+	height: 26px;
+	width: 141px;
+	margin: auto;
+}
+
+#navbar{
+	width: 70px;
+	height: 25px;
+	float: left;
+	margin: auto;
+	margin-top: -8px;
+
+}
+
+.navbar ul{
+  list-style: none;
+  background-color: white;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+
+.navbar li{
+  font-family: 'Ubuntu Condensed', sans-serif;
+  font-size: 1em;
+  line-height: 40px;
+  text-align: left;
+}
+
+.navbar a{
+  text-decoration: none;
+  color: #fff;
+  display: block;
+  padding-left: 15px;
+  border-bottom: 1px solid #888;
+  transition: .3s background-color;
+}
+
+.navbar a:hover{
+  background-color: #005f5f;
+}
+
+.navbar a.active {
+  background-color: #aaa;
+  color: #444;
+  cursor: default;
+}
+
+/* Sub Menus */
+.navbar li li {
+  font-size: .8em;
+}
+
+
+.navigation{
+	font-family: 'Ubuntu Condensed', sans-serif;
+	font-size: 1em;
+	margin: auto;
+	color: white;
+}
+
+/*#navbar{
+	width: 100%;
+	height: 100px;
+	margin-left: -8px;
+	margin-top: 25px;
+	background: white;
+	float: left;
+	position: fixed;
+	opacity: 0.5;
+}*/
+
+#times{
+	margin-top: 50px;
+	margin-left: 25px;
+	width:125px;
+	height: 125px;
+	border-radius: 50%;
+	padding: 25px;
+	background: white;
+	float: left;
+}
+
+#times:hover{
+	margin-top: 50px;
+	margin-left: 25px;
+	width:125px;
+	height: 125px;
+	border-radius: 50%;
+	padding: 25px;
+	background: black;
+	float: left;
+}
+
+#container_1{
+	margin: auto;
+	height: 126px;
+	width: 850px;
+	clear: none;
+}
+
+#container_2{
+	margin: auto;
+	height: 126px;
+	width: 635px;
+	clear: none;
+}
+
+.times{
+	margin-top: 32px;
+	text-align: center;
+	text-decoration: none;
+	font-size: 3em;
+}
+
+#text{
+	height: 15px;
+	width: 500px;
+	margin: auto;
+	margin-top: 275px;
+	clear: left;
+	background: white;
+	opacity: 0.75;
+	clear: none;
+}
+
+.quote{
+	font-family: 'Ubuntu Condensed', sans-serif;
+	font-size: .75em;
+	text-align: center;
+}
+
+a:link{
+	color: #b05e2f;
+	/*color: #088A08;*/
+	text-decoration: none;
+	text-align: center;
+}
+
+a:hover{
+	color: #c9965d;
+	/*color: #A4A4A4;*/
+}
+
+a:visited{
+	color: #A4A4A4;
+}
