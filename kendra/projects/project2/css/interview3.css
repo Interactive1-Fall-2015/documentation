@@ -19,7 +19,7 @@ body {
     height: 100%;
     z-index: 1;
     opacity: 1.0;
-    background-image: url('images/paul-mccartney-esquire-promo-43.jpg');
+    background-image: url('../images/paul-mccartney-esquire-promo-43.jpg');
     background-repeat: no-repeat;
     background-position: 50% 0;
     -ms-background-size: cover;
@@ -76,7 +76,7 @@ p#rock {
     width: 800px;
     height: 530px;
     left: 200px;
-    background-image: url('file:///Users/kendrameneghetti/Desktop/documentation/kendra/projects/project2/Ram%20Scans/yellowtexture.png');
+    background-image: url('../ram_scans/yellowtexture.png');
     background-repeat: no-repeat;
     position: relative;
 }
@@ -101,7 +101,7 @@ p#description {
     height: 900px;
     left: 400px;
     top: -800px;
-    background-image: url('file:///Users/kendrameneghetti/Desktop/documentation/kendra/projects/project2/Ram%20Scans/purpletexture.png');
+    background-image: url('..ram_scans/purpletexture.png');
     background-repeat: no-repeat;
     position: relative;
 }
@@ -126,7 +126,7 @@ p#description2 {
     height: 900px;
     left: 640px;
     top: -500px;
-    background-image: url('file:///Users/kendrameneghetti/Desktop/documentation/kendra/projects/project2/Images/rambw.png');
+    background-image: url('images/rambw.png');
     background-repeat: no-repeat;
     position: relative;
 }
