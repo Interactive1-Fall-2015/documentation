@@ -1,0 +1,76 @@
+* {
+	margin: 0; 
+	padding: 0; 
+}
+
+p {
+	font-family: 'Oswald', sans-serif;
+}
+
+body {
+	font-family: 'Oswald', sans-serif;
+}
+
+tr { 
+	vertical-align: top;
+}
+.post { 
+	width: 750px; 
+}
+
+p#beatles {
+	left: 50px;
+	padding: 50px;
+	font-family: 'Oswald', sans-serif;
+	font-size: 50;
+
+}
+
+p#next {
+	top: -110px;
+	left: 50px;
+	padding: 200px;
+	width: 200px;
+	font-family: 'Oswald', sans-serif;
+	font-size: 30;
+	position: relative;
+}
+
+p#desc {
+	top: -90px;
+	left: 4px;
+	padding: 50px;
+	font-family: 'Oswald', sans-serif;
+	font-size: 15;
+	position: relative;
+}
+
+a{
+	font-family: 'Oswald', sans-serif;
+	font-size: 30;
+	color: #000000;
+}
+
+a:link {
+    text-decoration: none;
+    font-family: 'Oswald', sans-serif;
+	font-size: 30;
+	color: #000000;
+
+}
+
+a:visited {
+    text-decoration: none;
+    font-family: 'Oswald', sans-serif;
+	font-size: 30;
+	color: #000000;
+}
+
+a:hover {
+    text-decoration: none;
+    color: red;
+}
+
+a:active {
+    text-decoration: none;
+}

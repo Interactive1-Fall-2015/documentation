@@ -1,0 +1,139 @@
+
+a {
+	font-family: 'Oswald', Sans-Serif;
+	color: #d9a559;
+	font-size: 50;
+	left: 120px;
+	top: 100px;
+	position: relative;
+	text-decoration: none;
+
+}
+
+#artists {
+	top: 200px;
+	position: absolute;
+}
+
+p {
+	font-family: 'Oswald', sans-serif;
+	font-size: 50;
+	color: #ffffff;
+	top: 50px;
+	padding-left: 130px;
+}
+
+
+
+body {
+	
+	background-image: url('file:///Users/kendrameneghetti/Desktop/Interactive%201/project3_acollection/images/needle1.JPG'); ;
+	background-size: 100%;
+	font-family: 'Oswald', sans-serif;
+	font-size: 50;
+	color: #ffffff;
+
+}
+
+
+
+.george {color: #ffffff;}
+.george:link {text-decoration: none; color: #ffffff;}
+.george:visited {text-decoration: none; color: #ffffff;}
+.george:hover {text-decoration: none; color: #bc5a35;}
+
+.strokes {color: #ffffff;}
+.strokes:link {text-decoration: none; color: #ffffff;}
+.strokes:visited {text-decoration: none; color: #ffffff;}
+.strokes:hover {text-decoration: none; color: #44a09f;}
+
+.monkeys {color: #ffffff;}
+.monkeys:link {text-decoration: none; color: #ffffff;}
+.monkeys:visited {text-decoration: none; color: #ffffff;}
+.monkeys:hover {text-decoration: none; color: #000000;}
+
+.thebeatles {color: #ffffff;}
+.thebeatles:link {text-decoration: none; color: #ffffff;}
+.thebeatles:visited {text-decoration: none; color: #ffffff;}
+.thebeatles:hover {text-decoration: none; color: #ffd700;}
+
+.demarco {color: #ffffff;}
+.demarco:link {text-decoration: none; color: #ffffff;}
+.demarco:visited {text-decoration: none; color: #ffffff;}
+.demarco:hover {text-decoration: none; color: #78b87c;}
+
+.thrills {color: #ffffff;}
+.thrills:link {text-decoration: none; color: #ffffff;}
+.thrills:visited {text-decoration: none; color: #ffffff;}
+.thrills:hover {text-decoration: none; color: #c78d22;}
+
+.zeppelin {color: #ffffff;}
+.zeppelin:link {text-decoration: none; color: #ffffff;}
+.zeppelin:visited {text-decoration: none; color: #ffffff;}
+.zeppelin:hover {text-decoration: none; color: #8a9c4e;}
+
+.milk {color: #ffffff;}
+.milk:link {text-decoration: none; color: #ffffff;}
+.milk:visited {text-decoration: none; color: #ffffff;}
+.milk:hover {text-decoration: none; color: #a35f4b;}
+
+.shout {color: #ffffff;}
+.shout:link {text-decoration: none; color: #ffffff;}
+.shout:visited {text-decoration: none; color: #ffffff;}
+.shout:hover {text-decoration: none; color: #b6c48f;}
+
+.jonsi {color: #ffffff;}
+.jonsi:link {text-decoration: none; color: #ffffff;}
+.jonsi:visited {text-decoration: none; color: #ffffff;}
+.jonsi:hover {text-decoration: none; color: #9d6c70;}
+
+.sonny {color: #ffffff;}
+.sonny:link {text-decoration: none; color: #ffffff;}
+.sonny:visited {text-decoration: none; color: #ffffff;}
+.sonny:hover {text-decoration: none; color: #9d6c70;}
+
+.thebeatles2 {color: #ffffff;}
+.thebeatles2:link {text-decoration: none; color: #ffffff;}
+.thebeatles2:visited {text-decoration: none; color: #ffffff;}
+.thebeatles2:hover {text-decoration: none; color: #9d6c70;}
+
+.thebeatles3 {color: #ffffff;}
+.thebeatles3:link {text-decoration: none; color: #ffffff;}
+.thebeatles3:visited {text-decoration: none; color: #ffffff;}
+.thebeatles3:hover {text-decoration: none; color: #9d6c70;}
+
+.ringo {color: #ffffff;}
+.ringo:link {text-decoration: none; color: #ffffff;}
+.ringo:visited {text-decoration: none; color: #ffffff;}
+.ringo:hover {text-decoration: none; color: #9d6c70;}
+
+.paul {color: #ffffff;}
+.paul:link {text-decoration: none; color: #ffffff;}
+.paul:visited {text-decoration: none; color: #ffffff;}
+.paul:hover {text-decoration: none; color: #9d6c70;}
+
+.simon {color: #ffffff;}
+.simon:link {text-decoration: none; color: #ffffff;}
+.simon:visited {text-decoration: none; color: #ffffff;}
+.simon:hover {text-decoration: none; color: #9d6c70;}
+
+.rollingstones {color: #ffffff;}
+.rollingstones:link {text-decoration: none; color: #ffffff;}
+.rollingstones:visited {text-decoration: none; color: #ffffff;}
+.rollingstones:hover {text-decoration: none; color: #9d6c70;}
+
+.janis {color: #ffffff;}
+.janis:link {text-decoration: none; color: #ffffff;}
+.janis:visited {text-decoration: none; color: #ffffff;}
+.janis:hover {text-decoration: none; color: #9d6c70;}
+
+.bobdylan {color: #ffffff;}
+.bobdylan:link {text-decoration: none; color: #ffffff;}
+.bobdylan:visited {text-decoration: none; color: #ffffff;}
+.bobdylan:hover {text-decoration: none; color: #9d6c70;}
+
+.future {color: #ffffff;}
+.future:link {text-decoration: none; color: #ffffff;}
+.future:visited {text-decoration: none; color: #ffffff;}
+.future:hover {text-decoration: none; color: #9d6c70;}
+

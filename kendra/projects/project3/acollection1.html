@@ -1,0 +1,74 @@
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<title>A Collection of Vinyls</title>
+		<meta name="description" content="">
+		<meta name="viewport" contents="width-device-width">
+		<link rel="stylesheet" type="text/css" href="css/acollection1.css">
+		<link href='https://fonts.googleapis.com/css?family=Didact+Gothic' rel='stylesheet' type='text/css'>
+
+	</head>
+<center>
+
+<script>
+var looper;
+var degrees = 0;
+function rotateAnimation(el,speed){
+	var elem = document.getElementById(el);
+	if(navigator.userAgent.match("Chrome")){
+		elem.style.WebkitTransform = "rotate("+degrees+"deg)";
+	} else if(navigator.userAgent.match("Firefox")){
+		elem.style.MozTransform = "rotate("+degrees+"deg)";
+	} else if(navigator.userAgent.match("MSIE")){
+		elem.style.msTransform = "rotate("+degrees+"deg)";
+	} else if(navigator.userAgent.match("Opera")){
+		elem.style.OTransform = "rotate("+degrees+"deg)";
+	} else {
+		elem.style.transform = "rotate("+degrees+"deg)";
+	}
+	looper = setTimeout('rotateAnimation(\''+el+'\','+speed+')',speed);
+	degrees++;
+	if(degrees > 359){
+		degrees = 1;
+	}
+	document.getElementById("status").innerHTML = "rotate("+degrees+"deg)";
+}
+</script>
+
+</head>
+
+<body>
+	<center>
+
+			<p id="title">
+	
+			a collection of vinyls
+
+			</p>
+
+	</center>
+
+	<center>
+
+			<p id="enter">
+
+			<a href="acollection2.html">(enter)</a>
+
+			</p>
+
+	</center>
+
+<div id="spinningvinyl">
+<img id="img1" src="images/atmp1.png" alt="cog1">
+<script>rotateAnimation("img1",30);</script>
+<h2 style="width:200px;" id="status"></h2>
+</div>
+
+
+</center>
+</body>  
+
+
+
+</html>
