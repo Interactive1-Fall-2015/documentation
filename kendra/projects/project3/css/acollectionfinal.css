@@ -24,7 +24,7 @@ body {
 }
 
 body{
-background-image:url('file:///Users/kendrameneghetti/Desktop/giphy.gif');
+background-image:url('../images/giphy.gif');
 background-position: center;
 background-size: cover;
 width: 100%;
