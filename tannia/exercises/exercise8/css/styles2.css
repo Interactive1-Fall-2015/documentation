@@ -1,0 +1,11 @@
+body {
+	background-image: url(../images/panda.gif);
+	background-size: 150px;
+	background-position: right;
+	
+}
+
+p {
+	text-align: center;
+	font-size: 200px;
+}

@@ -1,0 +1,8 @@
+body {
+	background: linear-gradient(to right, #FFB5B7, #E8A5C8 30%, #FEC2FF);
+}
+
+p {
+	font-size: 200px;
+	font-family: Helvetica;
+}
