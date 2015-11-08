@@ -27,7 +27,7 @@ p {
 
 body {
 	
-	background-image: url('file:///Users/kendrameneghetti/Desktop/Interactive%201/project3_acollection/images/needle1.JPG'); ;
+	background-image: url('../images/needle1.JPG'); ;
 	background-size: 100%;
 	font-family: 'Oswald', sans-serif;
 	font-size: 50;
