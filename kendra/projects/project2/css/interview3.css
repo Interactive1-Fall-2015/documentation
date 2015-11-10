@@ -19,7 +19,7 @@ body {
     height: 100%;
     z-index: 1;
     opacity: 1.0;
-    background-image: url('../images/paul-mccartney-esquire-promo-43.jpg');
+    background-image: url('../Images/paul-mccartney-esquire-promo-43.jpg');
     background-repeat: no-repeat;
     background-position: 50% 0;
     -ms-background-size: cover;
@@ -126,7 +126,7 @@ p#description2 {
     height: 900px;
     left: 640px;
     top: -500px;
-    background-image: url('../images/rambw.png');
+    background-image: url('../Images/rambw.png');
     background-repeat: no-repeat;
     position: relative;
 }
@@ -136,7 +136,7 @@ p#description2 {
     width: 100%;
     height: 2000px;
     background-color: white;
-    background-image: url('../images/grass2.png');
+    background-image: url('../Images/grass2.png');
     background-repeat: no-repeat;
     position: absolute;
 }
@@ -178,7 +178,7 @@ p#description2 {
     height: 1650px;
     left: 840px;
     top: 2450px;
-    background-image: url('../images/redzigzag.png');
+    background-image: url('../Images/redzigzag.png');
     background-repeat: no-repeat;
     position: relative;
 }
@@ -193,7 +193,7 @@ p#description2 {
     height: 2000px;
     z-index: 10;
     opacity: 1.0;
-    background-image: url('../images/mjYG9.jpg');
+    background-image: url('../Images/mjYG9.jpg');
     background-repeat: no-repeat;
     background-position: 50% 0;
     -ms-background-size: cover;
@@ -256,7 +256,7 @@ p#description2 {
     height: 2000px;
     z-index: 10;
     opacity: 1.0;
-    background-image: url('../images/46.jpg');
+    background-image: url('../Images/46.jpg');
     background-repeat: no-repeat;
     background-position: 20% 20%;
     -ms-background-size: cover;
