@@ -1,0 +1,30 @@
+body{
+height:800px;
+font-family: helvetica;
+font-size:48px;
+color:white;
+
+background: #436310;
+background: linear-gradient(#FF0000,#9900CC,#FFFF00);
+
+}
+
+a:link{
+	color:red;
+	text-decoration: none;
+	}
+
+
+a:visited{
+	color:purple;
+}
+
+
+a:hover{
+	color:orange;
+}
+
+
+a:active{
+	color:blue;
+	}
