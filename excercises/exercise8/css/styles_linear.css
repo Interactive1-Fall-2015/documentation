@@ -1,0 +1,25 @@
+body {
+	background: #436310;
+	background: linear-gradient(#2C3E50, #2980B9);
+
+}
+p {
+color: white;
+}
+
+a:link {
+color: #ffffff;
+text-decoration: none;
+}
+
+a:visited {
+color: #E74C3C;
+}
+
+a:hover {
+	color: #ECF0F1;
+}
+
+a:active {
+	color: #3498DB;
+}

@@ -1,0 +1,303 @@
+#container {
+	background-color: none;
+	width: 1300px;
+	height: 6300px;
+}
+p {
+	font-family: 'Glegoo', serif;
+	font-size: 14px;
+	font-color: #1D2120;
+}
+h3 {
+	font-family: 'Glegoo', serif;
+	font-size: 14px;
+	color: #EC3235;
+	font-weight: 700;
+	text-align: right;
+}
+#titleimage {
+	width: 1300px;
+	height: 400px;
+	background-image: url(../images/san_siro2.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+#title {
+	background-color: none;
+	width: 850px;
+	height: 250px;
+	font-family: Oswald; 
+	font-weight: 700;
+	font-size: 30px;
+	color: white;
+	float: left;
+	text-align: center;
+	padding-top: 22px;
+
+}
+#whitespace {
+	background-color: none;
+	width: 225px;
+	height: 400px;
+	float: left;
+}
+
+#break1 {
+	width: 1300px;
+	height: 65px;
+	background-color: none;
+}
+#break2 {
+	width: 1300px;
+	height: 105px;
+	background-color: none;
+}
+#intro {
+	width: 1300px;
+	height: 900px;
+	background-color: none;
+}
+
+#containersottotitolo {
+	width: 1300px;
+	height: 35px;
+	background-color: none;
+}
+#sottotitolo {
+	width: 900px;
+	height: 35px;
+	background-color: none;
+	text-align: center;
+	font-family: Oswald;
+	font-size: 29px; 
+	float: left;
+	color: #EC3235;
+}
+#containersottotitolo2 {
+	width: 1300px;
+	height: 130px;
+	background-color: none;
+}
+#sottotitolo2 {
+	width: 600px;
+	height: 130px;
+	background-color: none;
+	font-family: Oswald; 
+	text-align: left;
+	float: left;
+	font-weight: 700;
+	margin-top: 11px;
+	color: #3969E3;
+}
+#date {
+	width: 300px;
+	height: 130px;
+	background-color: none;
+	font-family: Oswald; 
+	font-size: 10px;
+	text-align: right;
+	float: left;
+}
+#whitespace1 {
+	background-color: none;
+	width: 50px;
+	height: 130px;
+	float: left;
+}
+#whitespace3 {
+	background-color: none;
+	width: 300px;
+	height: 130px;
+	float: left;
+}
+#edge1 {
+	width: 200px;
+	height: 35px;
+	background-color: none;
+	float: left;
+}
+#introtext {
+	width: 600px;
+	height: 600px;
+	background-color: none;
+	float: left;
+	text-align: left;
+}
+#introimage {
+	background-image: url(../images/picture1.jpg);
+	background-size:contain;
+	background-repeat: no-repeat;
+	width: 300px;
+	height: 600px;
+	float: left;
+	margin-top: 20px;
+}
+#whitespace2 {
+	background-color: none;
+	width: 50px;
+	height: 600px;
+	float: left;
+}
+#question2_container {
+	width: 1300px;
+	height: 250px;
+	float: left;
+}
+#question1_container {
+	width: 1300px;
+	height: 200px;
+	float: left;
+}
+#question3_container {
+	width: 1300px;
+	height: 230px;
+	float: left;
+}
+#question4_container {
+	width: 1300px;
+	height: 180px;
+	float: left;
+}
+#question5_container {
+	width: 1300px;
+	height: 270px;
+	float: left;
+}
+#question6_container {
+	width: 1300px;
+	height: 300px;
+	float: left;
+}
+#question8_container {
+	width: 1300px;
+	height: 190px;
+	float: left;
+}
+#question9_container {
+	width: 1300px;
+	height: 210px;
+	float: left;
+}
+#question10_container {
+	width: 1300px;
+	height: 240px;
+	float: left;
+}
+#question11_container {
+	width: 1300px;
+	height: 270px;
+	float: left;
+}
+#question12_container {
+	width: 1300px;
+	height: 330px;
+	float: left;
+}
+#question13_container {
+	width: 1300px;
+	height: 300px;
+	float: left;
+}
+#question14_container {
+	width: 1300px;
+	height: 310px;
+	float: left;
+}
+#question15_container {
+	width: 1300px;
+	height: 290px;
+	float: left;
+}
+#question16_container {
+	width: 1300px;
+	height: 330px;
+	float: left;
+}
+#question1 {
+	width: 300px;
+	height: 200px;
+	float: left;
+}
+#answer1 {
+	width: 600px;
+	height: 200px;
+	float: left;
+}
+#answer5 {
+	width: 400px;
+	height: 200px;
+	float: left;
+}
+h2 {
+	font-family: 'Oswald';
+	font-size: 16px;
+	font-color: #1D2120;
+	font-weight: 700;
+	color: #3969E3;
+	text-align: left;
+}
+#callout {
+	width: 200px;
+	height: 200px;
+	float: left;
+}
+#question5_container {
+	width: 1300px;
+	height: 250px;
+	float: left;
+}
+#question7_container {
+	width: 1300px;
+	height: 100px;
+	float: left;
+}
+#breakimagecontainer {
+	width: 1300px;
+	height: 200px;
+	float: left;
+}
+#breakimage1 {
+	background-image: url(../images/picture2.jpg);
+	background-size:contain;
+	background-repeat: no-repeat;
+	width: 300px;
+	height: 600px;
+	float: left;
+	margin-top: 20px;
+}
+#question13 {
+	width: 1000px;
+	height: 50px;
+	float: left;
+	text-align: left;
+}
+#answer13 {
+	width: 1000px;
+	height: 50px;
+	float: left;
+}
+#whitespace2 {
+	background-color: none;
+	width: 1000px;
+	height: 50px;
+	float: left;
+}
+#finalimagecontainer {
+	width: 1300px;
+	height: 600px;
+}
+#finalimage {
+	width: 900px;
+	height: 600px;
+	background-size: contain;
+	background-image: url(../images/picture3.jpg);
+	background-repeat: no-repeat;
+	float: left;
+}
+#edgefinal {
+	width: 240px;
+	height: 35px;
+	background-color: none;
+	float: left;
+}
+
