@@ -1,0 +1,34 @@
+
+h1 {
+	font-family: Impact;
+	color: blue;
+	font-size: 36px;
+}
+
+h3 {
+	color: chocolate;
+	  background-color: burlywood;
+	  font-weight: bold;
+	  line-height: 1.4em;
+	  text-align: center;
+	  border-color: ;
+}
+#list {
+	font-size: 24px ;
+	text-align:center;
+}
+
+body {background-color: cornsilk;
+	
+}
+
+#container {
+	width: 215px;
+	height: 190px;
+	color: #000000;
+	background-color: white;
+	padding: 15px;
+}
+
+
+}

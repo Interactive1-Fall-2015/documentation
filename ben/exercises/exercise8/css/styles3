@@ -1,0 +1,11 @@
+body {
+	height: 300px;
+    background: #436310;
+    background-image: url(/Users/Ben/Downloads/Auggie)
+    
+}
+
+#container {
+	width:390px;
+	height:800px;
+}

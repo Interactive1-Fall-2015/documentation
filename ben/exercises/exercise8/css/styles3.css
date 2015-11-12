@@ -1,0 +1,28 @@
+body {
+	height: 300px;
+    background: #436310;
+    background-image: url(../images/augbw2.jpg);
+
+    
+}
+
+#container {
+	width:390px;
+	height:800px;
+}
+a:link {
+	color:#FF0000;
+	text-decoration: none;
+}
+a:visited {
+	color: #00FF00;
+
+}
+
+a:hover {
+	color:#FF00FF;
+}
+
+a:active {
+	color: #0000FF;
+}

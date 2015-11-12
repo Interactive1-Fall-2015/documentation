@@ -1,0 +1,64 @@
+
+/*
+#vinylvidbw { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
+
+body {
+    background-image:url('images/file:///Users/kendrameneghetti/Desktop/Interactive%201/project3_acollection/images/vinylbw.gif');
+    background-size:100%;
+    background-repeat: repeat-y;
+    background-attachment: fixed;
+    height:100%;
+    width:100%;
+}
+
+*/
+
+
+#back {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	opacity: 0.2;
+	background-image: ;
+	filter: alpha(opacity=20);
+}
+
+body{
+background-image:url('../images/giphy.gif');
+background-position: center;
+background-size: cover;
+width: 100%;
+height: 100%;
+background-repeat: no-repeat;
+
+}
+
+#text {
+	font-family: 'Oswald', Sans-Serif;
+	font-size: 200;
+	color: #ffffff;
+	position: relative;
+	top: 50px;
+
+
+}
+
+a {
+	font-family: 'Oswald', Sans-Serif;
+	top: -150px;
+	position: relative;
+	font-size: 30;
+}
+
+a:link {
+	color: white;
+	text-decoration: none;
+}
+
+a:visited {
+	color: white;
+}
+
+a:hover {
+	color: red;
+}

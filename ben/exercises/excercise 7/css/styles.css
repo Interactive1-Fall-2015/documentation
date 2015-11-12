@@ -1,0 +1,24 @@
+body {
+ 
+font-variant:small-caps;
+font-weight:500;
+line-height: 22px;
+text-decoration: overline;
+font-family: 'Oswald', sans-serif;
+}
+
+h1 {
+text-shadow: 4px 7px 2px #334563;
+}
+
+h2 {
+color: red;
+}
+
+h3 {
+	letter-spacing: 4em;
+}
+
+h4 {word-spacing: 2em;
+	text-align: right;
+}

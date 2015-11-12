@@ -1,0 +1,44 @@
+body {
+	color: #ffffff;
+}
+
+p#title {
+	font-family: 'Didact Gothic', sans-serif;
+	color: #ffffff;
+	top: 650px;
+	left: 10px;
+	position: relative;
+	font-size: 90;
+	z-index: 5;
+	letter-spacing: 15;
+}
+
+#spinningvinyl {
+	z-index: 1;
+	top: -200px;
+}
+
+p#enter {
+	font-family: 'Didact Gothic', sans-serif;
+	color: #ffffff;
+	top: 1400px;
+	left: 2px;
+	position: relative;
+	font-size: 40;
+	z-index: 4;
+	text-decoration: none;
+	letter-spacing: 10;
+}
+
+a:link {
+	color: white;
+	text-decoration: none;
+}
+
+a:visited {
+	color: white;
+}
+
+a:hover {
+	color: red;
+}

@@ -1,0 +1,26 @@
+body {
+	background: linear-gradient(to left, #82E4E8,#9BFFE7);
+}
+
+p {
+	font-size: 100px;
+	text-align: center;
+	font-family: Futura;
+}
+
+a:link {
+	color: white;
+	text-decoration: none;
+}
+
+a:visited {
+	color: orange;
+}
+
+a:hover {
+	color: yellow;
+}
+
+a:active {
+	color: green;
+}

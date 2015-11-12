@@ -1,0 +1,152 @@
+
+h1 { font-family: 'Prata', serif;
+			color: #565656;
+			font-size: 33px;
+			margin-top: -333px;
+			text-align: left;
+			line-height: 39px;
+			margin-left: 911px;
+			letter-spacing: -3px;
+			font-weight: lighter;
+			text-decoration: none;
+			position: fixed;
+}
+
+
+.menubar {width: 1111px;
+			height: 44px;
+			position: fixed;
+			margin-top: -300px;
+			margin-left: 69.5px;
+			margin-right: 69.5px;
+			background-color: gold;
+			z-index: 33;
+}
+
+.menubar p { word-spacing: 58px;
+			 text-align: center;
+			 vertical-align: center;
+	        
+}
+
+
+
+.menubar a { 
+			color: white;
+			font-size: 16px;
+			display: inline;
+			text-align: right;
+			text-decoration: none;
+			font-family: 'metrophobic', sans-serif;
+}
+
+.menubar a:visited { color: white;
+}
+
+.menubar a:hover { color: #6d694e;
+	#ED184A;
+}
+
+.menubar a:active { color: #ff1d48;
+} 
+
+.name { color: gold;
+	font-family: 'metrophobic';
+	font-weight: bolder;
+	font-size: 66px;
+	margin-top: -133px;
+	margin-left: 259px;
+	position: fixed;
+	z-index: 34;
+}
+
+
+
+
+#yellow { margin-top:88px;
+
+}
+
+h4 { font-family: 'dosis';
+	font-size: 17px;
+	color: gray;
+	font-weight: lighter;
+	margin-left: 279px;
+	position: fixed;
+	margin-top: -55px;
+
+}
+
+.brush { width: 1111px;
+    margin-left: 55px;
+	position: fixed;
+	opacity: 1;
+	margin-top: -338px;
+
+
+
+}
+
+/* img[src="images/brush1color.png"] {
+	width: auto;
+	height: 166px;
+	position: absolute;
+	margin-top: 32px;
+} */
+
+
+img[src="images/brush15pic.jpg"] { 
+	width:444px;
+	height: 444px;
+	margin-left: 576px;
+	margin-top: -177px;
+	position: fixed;
+}
+
+#whitespacebaby {
+	width: 333px;
+	height: 444px;
+	margin-left: 1020px;
+	margin-top: -111px;
+	position: fixed;
+	background-color: white;
+}
+
+.goleft { margin-left: 33px;
+	margin-top: -333px;
+	position: fixed;
+	width: 66px;
+	opacity: 0.4;
+
+}
+
+.goright { margin-left: 1111px;
+	margin-top: -333px;
+	width: 66px;
+	position: fixed;
+	transform: rotate(180deg);
+	opacity: 0.4;
+}
+
+.goright:hover { opacity: 0.8;
+}
+
+.goleft:hover { opacity: 0.8;
+}
+
+img[src="images/brush15.png"]
+ {
+ 	height: 333px;
+ 	margin-top: -34px;
+
+ }
+
+
+.pic2 { width: 111px;
+	margin-left: 1px;
+	margin-top: 377px;
+	display: block;
+}
+
+
+
