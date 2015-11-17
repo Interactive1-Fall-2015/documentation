@@ -1,0 +1,28 @@
+#god {
+	position: relative;
+	width:400px;
+	height:400px;
+	/*background-color: blue;*/
+	margin: auto;
+}
+#i {
+	width:200px;
+	height:200px;
+	position: relative;
+}
+
+#am {
+	width:200px;
+	height:200px;
+    position: relative;
+    margin-left:200px;
+
+}
+
+/*#THE {width:200px;
+	height:200px;
+    position: relative;
+    left:200px;
+
+
+}*/
