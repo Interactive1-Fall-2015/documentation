@@ -1,0 +1,334 @@
+body {
+	background-color: #000E32;
+	;
+}
+
+p.keep {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 50;
+	color: #ffffff;
+	background-color: none;
+	position: relative;
+	left: 200px;
+	top: 200px;
+	letter-spacing: 5;
+}
+
+p.into {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 50;
+	color: #ffffff;
+	background-color: none;
+	position: relative;
+	left: 200px;
+	top: 200px;
+	letter-spacing: 15;
+}
+
+p.my {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 50;
+	color: #ffffff;
+	background-color: none;
+	position: relative;
+	left: 200px;
+	top: 130px;
+	letter-spacing: 60;
+}
+
+p.head {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 50;
+	color: #ffffff;
+	background-color: none;
+	position: relative;
+	left: 200px;
+	top: 70px;
+	letter-spacing: 5;
+}
+
+p.without {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 220;
+	color: #ffffff;
+	background-color: none;
+	position: relative;
+	left: 350px;
+	top: -377px;
+	letter-spacing: 5;
+	
+	filter: alpha(opacity=40); 
+}
+
+p.without:hover {
+	font-family: 'Montserrat', sans-serif;
+	opacity: 0.03;
+	filter: alpha(opacity=100); 
+}
+
+img {
+    opacity: 0.4;
+    filter: alpha(opacity=40); 
+    
+}
+
+img:hover {
+    opacity: 1.0;
+    filter: alpha(opacity=100); 
+}
+
+
+div {
+    width: 100px;
+    height: 50px;
+    float: left;
+    background-color: #000E32;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-size: 20;
+    position: relative;
+    left: 300px;
+    -webkit-animation: mymove 5s infinite; /* Chrome, Safari, Opera */
+    animation: mymove 5s infinite;
+}
+
+#div1 {
+	top: -500px;
+	-ms-transform: rotate(0deg); /* IE 9 */
+    -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+    transform: rotate(0deg);
+}
+
+#div2 {
+	top: -520px;
+	-ms-transform: rotate(0deg); /* IE 9 */
+    -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+    transform: rotate(0deg);
+}
+
+#div3 {
+
+top: -540px;
+	-ms-transform: rotate(0deg); /* IE 9 */
+    -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+    transform: rotate(0deg);
+
+}
+
+#div4 {
+
+top: -560px;
+	-ms-transform: rotate(0deg); /* IE 9 */
+    -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+    transform: rotate(0deg);
+
+}
+
+#div5 {
+
+top: -580px;
+	-ms-transform: rotate(0deg); /* IE 9 */
+    -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+    transform: rotate(0deg);
+
+}
+
+#div6 {
+
+top: -600px;
+	-ms-transform: rotate(0deg); /* IE 9 */
+    -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+    transform: rotate(0deg);
+
+}
+
+#div7 {
+
+top: -620px;
+	-ms-transform: rotate(0deg); /* IE 9 */
+    -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+    transform: rotate(0deg);
+
+}
+
+#div8 {
+
+top: -640px;
+	-ms-transform: rotate(0deg); /* IE 9 */
+    -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+    transform: rotate(0deg);
+
+}
+
+
+
+
+/* Chrome, Safari, Opera */
+#div1 {-webkit-animation-timing-function: linear;}
+#div2 {-webkit-animation-timing-function: ease;}
+#div3 {-webkit-animation-timing-function: ease-in;}
+#div4 {-webkit-animation-timing-function: ease-out;}
+#div5 {-webkit-animation-timing-function: ease-in-out;}
+#div6 {-webkit-animation-timing-function: linear;}
+#div7 {-webkit-animation-timing-function: ease;}
+#div8 {-webkit-animation-timing-function: ease-out;}
+
+/* Standard syntax */
+#div1 {animation-timing-function: linear;}
+#div2 {animation-timing-function: ease;}
+#div3 {animation-timing-function: ease-in;}
+#div4 {animation-timing-function: ease-out;}
+#div5 {animation-timing-function: ease-in-out;}
+#div6 {-webkit-animation-timing-function: linear;}
+#div7 {-webkit-animation-timing-function: ease;}
+#div8 {-webkit-animation-timing-function: ease-out;}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes mymove {
+    from {top: 0px;}
+    to {bottom: 300px;}
+}
+
+/* Standard syntax */
+@keyframes mymove {
+    from {top: 0px;}
+    to {bottom: 300px;}
+}
+
+p.k {
+
+	font-family: 'Montserrat', sans-serif;
+	font-size: 20;
+	color: #ffffff;
+	background-color: none;
+	position: relative;
+	left: 200px;
+	top: -200px;
+	letter-spacing: 5;
+	opacity: 0.1;
+}
+
+p.n {
+
+	font-family: 'Montserrat', sans-serif;
+	font-size: 25;
+	color: #ffffff;
+	background-color: none;
+	position: relative;
+	left: 300px;
+	top: -290px;
+	letter-spacing: 5;
+	opacity: 0.2;
+}
+
+p.o {
+
+	font-family: 'Montserrat', sans-serif;
+	font-size: 30;
+	color: #ffffff;
+	background-color: none;
+	position: relative;
+	left: 400px;
+	top: -380px;
+	letter-spacing: 5;
+	opacity: 0.3;
+}
+
+p.c {
+
+	font-family: 'Montserrat', sans-serif;
+	font-size: 35;
+	color: #ffffff;
+	background-color: none;
+	position: relative;
+	left: 500px;
+	top: -470px;
+	letter-spacing: 5;
+	opacity: 0.4;
+}
+
+p.k2 {
+
+	font-family: 'Montserrat', sans-serif;
+	font-size: 40;
+	color: #ffffff;
+	background-color: none;
+	position: relative;
+	left: 600px;
+	top: -560px;
+	letter-spacing: 5;
+	opacity: 0.5;
+}
+
+p.i {
+
+	font-family: 'Montserrat', sans-serif;
+	font-size: 45;
+	color: #ffffff;
+	background-color: none;
+	position: relative;
+	left: 700px;
+	top: -650px;
+	letter-spacing: 5;
+	opacity: 0.6;
+}
+
+p.n2 {
+
+	font-family: 'Montserrat', sans-serif;
+	font-size: 50;
+	color: #ffffff;
+	background-color: none;
+	position: relative;
+	left: 800px;
+	top: -740px;
+	letter-spacing: 5;
+	opacity: 0.7;
+}
+
+p.g {
+
+	font-family: 'Montserrat', sans-serif;
+	font-size: 55;
+	color: #ffffff;
+	background-color: none;
+	position: relative;
+	left: 900px;
+	top: -830px;
+	letter-spacing: 5;
+	opacity: 0.8;
+}
+
+p.and {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 50;
+	color: #ffffff;
+	background-color: none;
+	position: relative;
+	left: 200px;
+	top: -600px;
+	letter-spacing: 15
+}
+
+p.you {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 50;
+	color: #ffffff;
+	background-color: none;
+	position: relative;
+	left: 200px;
+	top: -670px;
+	letter-spacing: 15;
+}
+
+p.fix {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 50;
+	color: #ffffff;
+	background-color: none;
+	position: relative;
+	left: 200px;
+	top: -720px;
+	letter-spacing: 30;
+}

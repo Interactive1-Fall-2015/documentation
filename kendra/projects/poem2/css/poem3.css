@@ -1,0 +1,45 @@
+
+
+#k {
+	top: 100px;
+	width: 100px;
+	height: 100px;
+	background-image: url('../images/k.png');
+	background-repeat: no-repeat;
+	position: relative;
+	float: left;
+	left: 100px;
+}
+
+#e {
+	top: 100px;
+	width: 100px;
+	height: 100px;
+	background-image: url('../images/e.png');
+	background-repeat: no-repeat;
+	position: relative;
+	float: left;
+	left: 70px;
+}
+
+#e2 {
+	top: 100px;
+	width: 100px;
+	height: 100px;
+	background-image: url('../images/e.png');
+	background-repeat: no-repeat;
+	position: relative;
+	float: left;
+	left: 40px;
+}
+
+#p {
+	top: 100px;
+	width: 100px;
+	height: 100px;
+	background-image: url('../images/p.png');
+	background-repeat: no-repeat;
+	position: relative;
+	float: left;
+	left: 10px;
+}
