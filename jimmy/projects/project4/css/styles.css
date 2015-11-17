@@ -1,0 +1,22 @@
+/*#god {
+
+	width: 330px;
+	margin: auto;
+}*/
+p {
+	line-height: 10pt;
+	font-family: monospace;
+	text-align: left;
+	font-size: 20pt;
+}
+span {
+	opacity: 0;
+	background: #ffffff;
+	transition-property: opacity;
+	transition-duration: 0.15s;
+	transition-delay: .25s;
+	transition-timing-function: linear;
+}
+span:hover {
+	opacity: 1;
+}
