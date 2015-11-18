@@ -1,6 +1,6 @@
 body {
 	background-color: #000E32;
-	;
+	
 }
 
 p.keep {
@@ -196,6 +196,8 @@ top: -640px;
     to {bottom: 300px;}
 }
 
+
+
 p.k {
 
 	font-family: 'Montserrat', sans-serif;
@@ -329,6 +331,335 @@ p.fix {
 	background-color: none;
 	position: relative;
 	left: 200px;
-	top: -720px;
+	top: -725px;
 	letter-spacing: 30;
+}
+
+p.yourself {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 50;
+	color: #ffffff;
+	background-color: none;
+	position: relative;
+	left: 198px;
+	top: -805px;
+	letter-spacing: 20;
+}
+
+
+/*
+p.there {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 10;
+	color: #ffffff;
+	background-color: none;
+	position: relative;
+	left: 900px;
+	top: -800px;
+	letter-spacing: 2;
+	
+}
+
+p.there2 {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 10;
+	color: #ffffff;
+	background-color: none;
+	position: relative;
+	left: 900px;
+	top: -800px;
+	letter-spacing: 2;
+	
+}
+
+p.there3 {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 10;
+	color: #ffffff;
+	background-color: none;
+	position: relative;
+	left: 900px;
+	top: -800px;
+	letter-spacing: 2;
+	
+}
+
+p.there4 {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 10;
+	color: #ffffff;
+	background-color: none;
+	position: relative;
+	left: 900px;
+	top: -800px;
+	letter-spacing: 2;
+	
+}
+
+p.there5 {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 10;
+	color: #ffffff;
+	background-color: none;
+	position: relative;
+	left: 940px;
+	top: -823px;
+	letter-spacing: 2;
+	
+}
+
+
+p.there6 {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 10;
+	color: #ffffff;
+	background-color: none;
+	position: relative;
+	left: 940px;
+	top: -890px;
+	letter-spacing: 2;
+	
+}
+
+p.there7 {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 10;
+	color: #ffffff;
+	background-color: none;
+	position: relative;
+	left: 940px;
+	top: -893px;
+	letter-spacing: 2;
+	
+}
+
+p.there8 {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 10;
+	color: #ffffff;
+	background-color: none;
+	position: relative;
+	left: 940px;
+	top: -960px;
+	letter-spacing: 2;
+	
+}
+
+*/
+
+p.there1 {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 10;
+	color: #ffffff;
+	background-color: none;
+	position: relative;
+	left: 940px;
+	top: -800px;
+	opacity: 0.2;
+}
+
+p.there2 {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 10;
+	color: #ffffff;
+	background-color: none;
+	position: relative;
+	left: 970px;
+	top: -875px;
+	opacity: 0.2;
+	
+}
+
+p.there3 {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 10;
+	color: #ffffff;
+	background-color: none;
+	position: relative;
+	left: 970px;
+	top: -885px;
+
+}
+
+p.there4 {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 10;
+	color: #ffffff;
+	background-color: none;
+	position: relative;
+	left: 1000px;
+	top: -970px;
+	opacity: 0.2;
+}
+
+p.there5 {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 10;
+	color: #ffffff;
+	background-color: none;
+	position: relative;
+	left: 970px;
+	top: -895px;
+	opacity: 0.2;
+}
+
+p.a {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1200;
+	color: #ffffff;
+	background-color: none;
+	position: relative;
+	left: 350px;
+	top: -2400px;
+
+}
+
+p.like {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 20;
+	color: #ffffff;
+	background-color: none;
+	position: relative;
+	left: 160px;
+	top: -3900px;
+	letter-spacing: 21;
+	-ms-transform: rotate(52.5deg); /* IE 9 */
+    -webkit-transform: rotate(52.5deg); /* Chrome, Safari, Opera */
+    transform: rotate(52.5deg);
+}
+
+div.m {
+	top: -3500px;
+	left: 200px;
+  animation: blink 3s steps(5, start) infinite;
+  -webkit-animation: blink 3s steps(5, start) infinite;
+}
+@keyframes blink {
+  to {
+    visibility: hidden;
+  }
+}
+@-webkit-keyframes blink {
+  to {
+    visibility: hidden;
+  }
+}
+
+div.a {
+	top: -3400px;
+	left: 250px;
+  animation: blink 2s steps(5, start) infinite;
+  -webkit-animation: blink 2s steps(5, start) infinite;
+}
+@keyframes blink {
+  to {
+    visibility: hidden;
+  }
+}
+@-webkit-keyframes blink {
+  to {
+    visibility: hidden;
+  }
+}
+
+
+div.p {
+	top: -3500px;
+	left: 300px;
+  animation: blink 1s steps(5, start) infinite;
+  -webkit-animation: blink 1s steps(5, start) infinite;
+}
+@keyframes blink {
+  to {
+    visibility: hidden;
+  }
+}
+@-webkit-keyframes blink {
+  to {
+    visibility: hidden;
+  }
+}
+
+
+div.dash {
+	top: -3600px;
+	left: 360px;
+  animation: blink 3s steps(5, start) infinite;
+  -webkit-animation: blink 3s steps(5, start) infinite;
+}
+@keyframes blink {
+  to {
+    visibility: hidden;
+  }
+}
+@-webkit-keyframes blink {
+  to {
+    visibility: hidden;
+  }
+}
+
+
+div.p2 {
+	top: -3600px;
+	left: 390px;
+  animation: blink 2s steps(5, start) infinite;
+  -webkit-animation: blink 2s steps(5, start) infinite;
+}
+@keyframes blink {
+  to {
+    visibility: hidden;
+  }
+}
+@-webkit-keyframes blink {
+  to {
+    visibility: hidden;
+  }
+}
+
+
+div.i {
+	top: -3400px;
+	left: 410px;
+
+  animation: blink 1s steps(5, start) infinite;
+  -webkit-animation: blink 1s steps(5, start) infinite;
+}
+@keyframes blink {
+  to {
+    visibility: hidden;
+  }
+}
+@-webkit-keyframes blink {
+  to {
+    visibility: hidden;
+  }
+}
+
+
+div.n {
+	top: -3500px;
+	left: 460px;
+  animation: blink 3s steps(5, start) infinite;
+  -webkit-animation: blink 3s steps(5, start) infinite;
+}
+@keyframes blink {
+  to {
+    visibility: hidden;
+  }
+}
+@-webkit-keyframes blink {
+  to {
+    visibility: hidden;
+  }
+}
+
+p.dogwood {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 10;
+	color: #ffffff;
+	background-color: none;
+	position: relative;
+	left: -150px;
+	top: -1800px;
+	letter-spacing: 2;
 }
