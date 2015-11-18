@@ -1,0 +1,82 @@
+body{
+	background-color:#aaff00;
+	font-family:futura;
+	height:400px;
+	width:1280px;
+	line-height:180%;
+	text-align:center;
+}
+
+
+a{
+	text-decoration:none;
+}
+
+a,a:visited {
+color: inherit;}
+   
+
+
+
+
+
+
+
+.box1{
+	
+	position:relative;
+	left:-250px;
+	top:55px;
+	
+	/* Safari */
+-webkit-transform: rotate(-90deg);
+
+/* Firefox */
+-moz-transform: rotate(-90deg);
+
+/* IE */
+-ms-transform: rotate(-90deg);
+
+/* Opera */
+-o-transform: rotate(-90deg);
+
+/* Internet Explorer */
+filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+
+}
+
+	
+
+.box2{
+	float:right;
+	
+	position:relative;
+	left:-590px;
+	bottom:680px;
+	
+
+     
+ display: inline-block;
+ -moz-transform: scale(-1, 1); 
+ -webkit-transform: scale(-1, 1);  
+ transform: scale(-1, 1); 
+} 
+
+
+.rotate90{
+	/* Safari */
+-webkit-transform: rotate(90deg);
+
+/* Firefox */
+-moz-transform: rotate(90deg);
+
+/* IE */
+-ms-transform: rotate(90deg);
+
+/* Opera */
+-o-transform: rotate(90deg);
+
+/* Internet Explorer */
+filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+backward 
+}
