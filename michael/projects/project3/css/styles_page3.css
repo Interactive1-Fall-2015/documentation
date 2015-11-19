@@ -1,0 +1,33 @@
+
+body {
+ 	background-image: url('../images/IMG_6744.JPG');
+ 	background-position: center center;
+ 	background-repeat: no-repeat;
+ 	background-attachment: fixed;
+  	background-size: cover;
+}
+.t {
+	height: 3000px;
+	width: 20.99999901px;
+	background-color: #D52121;
+	margin-left: 234.5px;
+	position: absolute;
+}
+.arrow-right {
+	width: 0;
+    height: 0;
+    border-top: 70px solid grey;
+    border-left: 35px solid transparent;
+    border-right: 35px solid transparent;
+	position: absolute;
+}
+.arrow-right:hover {
+border-top: 70px solid #D52121;
+    border-left: 35px solid transparent;
+    border-right: 35px solid transparent;
+}
+#link {
+	background-color: none;
+	margin-left: 280px;
+	position: absolute;
+}

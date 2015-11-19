@@ -1,0 +1,46 @@
+
+body {
+	background-color: none;
+}
+#container {
+	width: 18450px;
+	height: 700px;
+	background-color: none;
+	margin: auto;
+	margin-left: 234.5px;
+	margin-top: 60px;
+}
+.t {
+	height: 20.99999901px;
+	width: 18160px;
+	background-color: #D52121;
+	margin-left: 234.5px;
+	position: absolute;
+}
+.arrow-right {
+	width: 0;
+    height: 0;
+    border-top: 70px solid grey;
+    border-left: 35px solid transparent;
+    border-right: 35px solid transparent;
+    position: absolute;
+    	margin-left: 18090px;
+	margin-top: -630px;
+}
+.arrow-right:hover {
+border-top: 70px solid #D52121;
+    border-left: 35px solid transparent;
+    border-right: 35px solid transparent;
+}
+#link {
+	width: 50px;
+	height: 1px;
+	background-color: none;
+
+
+
+}
+
+
+
+

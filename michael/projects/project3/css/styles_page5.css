@@ -1,0 +1,118 @@
+#container {
+	width: 2150px;
+	height: 500px;
+	background-color: none;
+	}
+#image1 {
+	background-image: url(../images/IMG_6796.JPG);
+	width: 650px;
+	height: 500px;
+	float:left;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+#image2 {
+	background-image: url(../images/IMG_6797.JPG);
+	width: 650px;
+	height: 500px;
+	float:left;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+#image3 {
+	background-image: url(../images/IMG_6798.JPG);
+	width: 650px;
+	height: 500px;
+	float:left;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+#image4 {
+	background-image: url(../images/IMG_6801.JPG);
+	width: 650px;
+	height: 500px;
+	float:left;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+#image5 {
+	background-image: url(../images/IMG_6800.JPG);
+	width: 650px;
+	height: 500px;
+	float:left;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+#image6 {
+	background-image: url(../images/IMG_6799.JPG);
+	width: 650px;
+	height: 500px;
+	float:left;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+#image7 {
+	background-image: url(../images/IMG_6802.JPG);
+	width: 650px;
+	height: 500px;
+	float:left;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+#image8 {
+	background-image: url(../images/IMG_6803.JPG);
+	width: 650px;
+	height: 500px;
+	float:left;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+#image9 {
+	background-image: url(../images/IMG_6804.JPG);
+	width: 650px;
+	height: 500px;
+	float:left;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+#whitespace {
+	width: 50px;
+	height: 500px;
+	float:left;
+	background-color: none;
+}
+#whitespace2 {
+	width: 2150px;
+	height: 50px;
+	background-color: none;
+}
+.arrow-right {
+	 width: 0;
+    height: 0;
+    border-bottom: 70px solid grey;
+    border-left: 35px solid transparent;
+    border-right: 35px solid transparent;
+	position: absolute;
+}
+.arrow-right:hover {
+	 border-bottom: 70px solid #D52121;
+    border-left: 35px solid transparent;
+    border-right: 35px solid transparent;
+}
+#link {
+	background-color: none;
+	margin-left: 2065px;
+	margin-top: -70px;
+	position: absolute;
+
+}
+.t {
+	height: 20.99999901px;
+	width: 2099.5px;
+	background-color: #D52121;
+	margin-top: 50px;
+	position: absolute;
+}
+
+
+
