@@ -18,7 +18,25 @@ body {
 	float: right;
 }
 
+#projects {
+	margin-top: 400px;
+}
+
+#exercises {
+	margin-top: 50px;
+}
+
 h3 {
 	font-family: 'Avenir';
 	font-size: 20px;
+	margin-top: 100px;
+}
+
+a {
+	text-decoration: none;
+	padding-left: 30px;
+}
+
+a:hover {
+	color: orange;
 }
