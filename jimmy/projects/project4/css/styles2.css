@@ -5,7 +5,6 @@
 	margin: auto;
 }
 p {
-	color: white;
 	line-height: 10pt;
 	font-family: monospace;
 	text-align: left;
@@ -92,12 +91,5 @@ a {
 }
 #fronte:hover {
 	color: #e5ffff;
-}
-#page2 {
-	color: black;
-	line-height: 10pt;
-	font-family: monospace;
-	text-align: left;
-	font-size: 20pt;
 }
 
