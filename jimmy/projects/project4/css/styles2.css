@@ -32,7 +32,7 @@ p {
 	opacity: 0;
 }
 #fronta {
-	transform: rotate(0deg);
+	transform: rotateZ(0deg);
 	opacity: 1;
 	transition-property: opacity transform;
 	transition-duration: 0.15s;
@@ -40,7 +40,7 @@ p {
 	transition-timing-function: ease-in-out;
 }
 #fronta:hover {
-	transform: rotate(180deg);
+	transform: rotateZ(90deg);
 	opacity: 0;
 }
 #frontb {

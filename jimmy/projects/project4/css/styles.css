@@ -33,7 +33,7 @@ p {
 	opacity: 0;
 }
 #fronta {
-	transform: rotate(0deg);
+	transform: rotateZ(0deg);
 	opacity: 1;
 	transition-property: opacity transform;
 	transition-duration: 0.15s;
@@ -41,7 +41,7 @@ p {
 	transition-timing-function: ease-in-out;
 }
 #fronta:hover {
-	transform: rotate(180deg);
+	transform: rotateZ(90deg);
 	opacity: 0;
 }
 #frontb {
@@ -92,12 +92,5 @@ a {
 }
 #fronte:hover {
 	color: #e5ffff;
-}
-#page2 {
-	color: black;
-	line-height: 10pt;
-	font-family: monospace;
-	text-align: left;
-	font-size: 20pt;
 }
 
