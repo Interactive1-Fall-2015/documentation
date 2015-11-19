@@ -1,0 +1,483 @@
+#container {
+	width: 1200px;
+	height: 2000px;
+	background-color: #ffff80;
+	margin: auto;
+
+}
+#maincontainer {
+		background-position: center center;
+ 	background-repeat: no-repeat;
+ 	background-attachment: fixed;
+  	background-size: cover;
+  		background-color: #ffff80;
+}
+#top_whitespace {
+	width: 1200px;
+	height: 150px;
+	background-color: none;
+	margin: auto;
+}
+#sunrise {
+	width: 1200px;
+	height: 400px;
+	background-color: none;
+	margin: auto;
+}
+p {
+	font-family: 'Roboto Slab', serif;
+	color: black;
+	font-size: 14px;
+	text-align: center;
+	margin: auto;
+	margin-top: -6px;
+}
+h4 {
+	font-family: 'Roboto Slab', serif;
+	color: black;
+	font-size: 14px;
+	text-align: right;
+	margin: auto;
+	margin-top: 300px;
+	margin-right: 6px;
+}
+
+
+#outer_raycontainer {
+	width: 1200px;
+	height: 1000px;
+	background-color: none;
+	margin: auto;
+	font-size: 22px;
+
+}
+#ray1 {
+	width: 75px;
+	height: 170px;
+	background-color: none;
+	margin: auto;
+
+	-ms-transform: rotate(180deg); 
+    -webkit-transform: rotate(180deg); 
+    transform: rotate(180deg);
+}
+#ray2 {
+	width: 75px;
+	height: 170px;
+	background-color: none;
+	margin: auto;
+	position: absolute;
+	-ms-transform: rotate(-135deg); 
+    -webkit-transform: rotate(-135deg); 
+    transform: rotate(-135deg);
+     margin-left: 775px;
+      margin-top: -100px;
+
+}
+#ray3 {
+	width: 75px;
+	height: 170px;
+	background-color: none;
+	margin: auto;
+	position: absolute;
+	-ms-transform: rotate(90deg); 
+    -webkit-transform: rotate(90deg); 
+    transform: rotate(90deg);
+    margin-left: 250px;
+      margin-top: 105px;
+}
+#ray4 {
+	width: 75px;
+	height: 170px;
+	background-color: none;
+	margin: auto;
+	position: absolute;
+	-ms-transform: rotate(-45deg); 
+    -webkit-transform: rotate(-45deg); 
+    transform: rotate(-45deg);
+    margin-left: 750px;
+      margin-top: 300px;
+}
+#ray5 {
+	width: 75px;
+	height: 170px;
+	background-color: none;
+	margin: auto;
+	position: absolute;
+	margin-left: 540px;
+     margin-top: 400px;
+
+}
+#ray6 {
+	width: 75px;
+	height: 170px;
+	background-color: none;
+	margin: auto;
+	position: absolute;
+	-ms-transform: rotate(45deg); 
+    -webkit-transform: rotate(45deg); 
+    transform: rotate(45deg);
+     margin-left: 350px;
+      margin-top: 300px;
+}
+#ray7 {
+	width: 75px;
+	height: 170px;
+	background-color: none;
+	margin: auto;
+	position: absolute;
+	-ms-transform: rotate(-90deg); 
+    -webkit-transform: rotate(-90deg); 
+    transform: rotate(-90deg);
+    margin-left: 850px;
+      margin-top: 105px;
+}
+#ray8 {
+	width: 75px;
+	height: 170px;
+	background-color: none;
+	margin: auto;
+	position: absolute;
+	-ms-transform: rotate(135deg); 
+    -webkit-transform: rotate(135deg); 
+    transform: rotate(135deg);
+      margin-left: 350px;
+      margin-top: -100px;
+}
+#outer2_raycontainer {
+	width: 1200px;
+	height: 1000px;
+	background-color: none;
+	margin: auto;
+	font-size: 22px;
+	margin-top: -1350px;
+	margin-left: 120px;
+	   zoom: 0.7;
+    -moz-transform: scale(0.7);
+    	-ms-transform: rotate(60deg); 
+    -webkit-transform: rotate(60deg); 
+    transform: rotate(60deg);
+
+}
+#ray1 {
+	width: 75px;
+	height: 170px;
+	background-color: none;
+	margin: auto;
+
+	-ms-transform: rotate(180deg); 
+    -webkit-transform: rotate(180deg); 
+    transform: rotate(180deg);
+}
+#ray2 {
+	width: 75px;
+	height: 170px;
+	background-color: none;
+	margin: auto;
+	position: absolute;
+	-ms-transform: rotate(-135deg); 
+    -webkit-transform: rotate(-135deg); 
+    transform: rotate(-135deg);
+     margin-left: 775px;
+      margin-top: -100px;
+
+}
+#ray3 {
+	width: 75px;
+	height: 170px;
+	background-color: none;
+	margin: auto;
+	position: absolute;
+	-ms-transform: rotate(90deg); 
+    -webkit-transform: rotate(90deg); 
+    transform: rotate(90deg);
+    margin-left: 250px;
+      margin-top: 105px;
+}
+#ray4 {
+	width: 75px;
+	height: 170px;
+	background-color: none;
+	margin: auto;
+	position: absolute;
+	-ms-transform: rotate(-45deg); 
+    -webkit-transform: rotate(-45deg); 
+    transform: rotate(-45deg);
+    margin-left: 750px;
+      margin-top: 300px;
+}
+#ray5 {
+	width: 75px;
+	height: 170px;
+	background-color: none;
+	margin: auto;
+	position: absolute;
+	margin-left: 540px;
+     margin-top: 400px;
+
+}
+#ray6 {
+	width: 75px;
+	height: 170px;
+	background-color: none;
+	margin: auto;
+	position: absolute;
+	-ms-transform: rotate(45deg); 
+    -webkit-transform: rotate(45deg); 
+    transform: rotate(45deg);
+     margin-left: 350px;
+      margin-top: 300px;
+}
+#ray7 {
+	width: 75px;
+	height: 170px;
+	background-color: none;
+	margin: auto;
+	position: absolute;
+	-ms-transform: rotate(-90deg); 
+    -webkit-transform: rotate(-90deg); 
+    transform: rotate(-90deg);
+    margin-left: 850px;
+      margin-top: 105px;
+}
+#ray8 {
+	width: 75px;
+	height: 170px;
+	background-color: none;
+	margin: auto;
+	position: absolute;
+	-ms-transform: rotate(135deg); 
+    -webkit-transform: rotate(135deg); 
+    transform: rotate(135deg);
+      margin-left: 350px;
+      margin-top: -100px;
+}
+#outer3_raycontainer {
+	width: 1200px;
+	height: 1000px;
+	background-color: none;
+	margin: auto;
+	font-size: 22px;
+	margin-top: -1210px;
+	margin-left: 690px;
+	   zoom: 0.5;
+    -moz-transform: scale(0.5);
+    	-ms-transform: rotate(-45deg); 
+    -webkit-transform: rotate(-45deg); 
+    transform: rotate(-45deg);
+
+}
+#ray1 {
+	width: 75px;
+	height: 170px;
+	background-color: none;
+	margin: auto;
+
+	-ms-transform: rotate(180deg); 
+    -webkit-transform: rotate(180deg); 
+    transform: rotate(180deg);
+}
+#ray2 {
+	width: 75px;
+	height: 170px;
+	background-color: none;
+	margin: auto;
+	position: absolute;
+	-ms-transform: rotate(-135deg); 
+    -webkit-transform: rotate(-135deg); 
+    transform: rotate(-135deg);
+     margin-left: 775px;
+      margin-top: -100px;
+
+}
+#ray3 {
+	width: 75px;
+	height: 170px;
+	background-color: none;
+	margin: auto;
+	position: absolute;
+	-ms-transform: rotate(90deg); 
+    -webkit-transform: rotate(90deg); 
+    transform: rotate(90deg);
+    margin-left: 250px;
+      margin-top: 105px;
+}
+#ray4 {
+	width: 75px;
+	height: 170px;
+	background-color: none;
+	margin: auto;
+	position: absolute;
+	-ms-transform: rotate(-45deg); 
+    -webkit-transform: rotate(-45deg); 
+    transform: rotate(-45deg);
+    margin-left: 750px;
+      margin-top: 300px;
+}
+#ray5 {
+	width: 75px;
+	height: 170px;
+	background-color: none;
+	margin: auto;
+	position: absolute;
+	margin-left: 540px;
+     margin-top: 400px;
+
+}
+#ray6 {
+	width: 75px;
+	height: 170px;
+	background-color: none;
+	margin: auto;
+	position: absolute;
+	-ms-transform: rotate(45deg); 
+    -webkit-transform: rotate(45deg); 
+    transform: rotate(45deg);
+     margin-left: 350px;
+      margin-top: 300px;
+}
+#ray7 {
+	width: 75px;
+	height: 170px;
+	background-color: none;
+	margin: auto;
+	position: absolute;
+	-ms-transform: rotate(-90deg); 
+    -webkit-transform: rotate(-90deg); 
+    transform: rotate(-90deg);
+    margin-left: 850px;
+      margin-top: 105px;
+}
+#ray8 {
+	width: 75px;
+	height: 170px;
+	background-color: none;
+	margin: auto;
+	position: absolute;
+	-ms-transform: rotate(135deg); 
+    -webkit-transform: rotate(135deg); 
+    transform: rotate(135deg);
+      margin-left: 350px;
+      margin-top: -100px;
+}
+#outer4_raycontainer {
+	width: 1200px;
+	height: 1000px;
+	background-color: none;
+	margin: auto;
+	font-size: 22px;
+	margin-top: -1450px;
+	margin-left: 1250px;
+	   zoom: 0.3;
+    -moz-transform: scale(0.3);
+    	-ms-transform: rotate(75deg); 
+    -webkit-transform: rotate(75deg); 
+    transform: rotate(75deg);
+
+}
+#ray1 {
+	width: 75px;
+	height: 170px;
+	background-color: none;
+	margin: auto;
+
+	-ms-transform: rotate(180deg); 
+    -webkit-transform: rotate(180deg); 
+    transform: rotate(180deg);
+}
+#ray2 {
+	width: 75px;
+	height: 170px;
+	background-color: none;
+	margin: auto;
+	position: absolute;
+	-ms-transform: rotate(-135deg); 
+    -webkit-transform: rotate(-135deg); 
+    transform: rotate(-135deg);
+     margin-left: 775px;
+      margin-top: -100px;
+
+}
+#ray3 {
+	width: 75px;
+	height: 170px;
+	background-color: none;
+	margin: auto;
+	position: absolute;
+	-ms-transform: rotate(90deg); 
+    -webkit-transform: rotate(90deg); 
+    transform: rotate(90deg);
+    margin-left: 250px;
+      margin-top: 105px;
+}
+#ray4 {
+	width: 75px;
+	height: 170px;
+	background-color: none;
+	margin: auto;
+	position: absolute;
+	-ms-transform: rotate(-45deg); 
+    -webkit-transform: rotate(-45deg); 
+    transform: rotate(-45deg);
+    margin-left: 750px;
+      margin-top: 300px;
+}
+#ray5 {
+	width: 75px;
+	height: 170px;
+	background-color: none;
+	margin: auto;
+	position: absolute;
+	margin-left: 540px;
+     margin-top: 400px;
+
+}
+#ray6 {
+	width: 75px;
+	height: 170px;
+	background-color: none;
+	margin: auto;
+	position: absolute;
+	-ms-transform: rotate(45deg); 
+    -webkit-transform: rotate(45deg); 
+    transform: rotate(45deg);
+     margin-left: 350px;
+      margin-top: 300px;
+}
+#ray7 {
+	width: 75px;
+	height: 170px;
+	background-color: none;
+	margin: auto;
+	position: absolute;
+	-ms-transform: rotate(-90deg); 
+    -webkit-transform: rotate(-90deg); 
+    transform: rotate(-90deg);
+    margin-left: 850px;
+      margin-top: 105px;
+}
+#ray8 {
+	width: 75px;
+	height: 170px;
+	background-color: none;
+	margin: auto;
+	position: absolute;
+	-ms-transform: rotate(135deg); 
+    -webkit-transform: rotate(135deg); 
+    transform: rotate(135deg);
+      margin-left: 350px;
+      margin-top: -100px;
+}
+#immenso {
+	width: 1200px;
+	height: 100px;
+	background-color: none;
+	margin: auto;
+	margin-top: 600px;
+}
+
+
+
+
+
+

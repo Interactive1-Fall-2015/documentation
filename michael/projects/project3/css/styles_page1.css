@@ -1,0 +1,99 @@
+
+#container {
+	width: 1000px;
+	height: 2950px;
+	background-color: none;
+	margin: auto;
+}
+h4 {
+	font-family: 'Oswald', sans-serif;
+	color: #D52121;
+	font-size: 11px;
+	margin: auto;
+	position: absolute;
+	margin-top: 174px;
+	margin-left: 905px;
+}
+h1 {
+	font-family: 'Oswald', sans-serif;
+	color: #D52121;
+	font-size: 129px;
+	margin: auto;
+	text-align: center;
+}
+.t {
+	height: 2950px;
+	width: 20.99999901px;
+	background-color: #D52121;
+	margin-left: 234.5px;
+	margin-top: 100px;
+	position: absolute;
+}
+.lifeguard {
+	margin: auto;
+	background-image: url(../images/IMG_6924.jpg);
+	width: 560px;
+	height: 850px;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.picturespacing {
+	width: 560px;
+	height: 40px;
+	background-color: none;
+}
+.people {
+	margin: auto;
+	background-image: url(../images/IMG_7106.jpg);
+	width: 560px;
+	height: 380px;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.lineup {
+	margin: auto;
+	background-image: url(../images/IMG_7047.jpg);
+	width: 560px;
+	height: 380px;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.picturespacing2 {
+	width: 560px;
+	height: 300px;
+	background-color: none;
+}
+.board {
+	margin: auto;
+	background-image: url(../images/IMG_6528.jpg);
+	width: 1000px;
+	height: 750px;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.arrow-right {
+ 	width: 0;
+    height: 0;
+    border-top: 70px solid grey;
+    border-left: 35px solid transparent;
+    border-right: 35px solid transparent;
+	margin-left: 500px;
+	margin-top: 12px;
+	position: absolute;
+	transition-property: background;
+	transition-duration: 1s;
+	transition-delay: .2s;
+	transition-timing-function: linear;
+}
+.arrow-right:hover {
+border-top: 70px solid #D52121;
+    border-left: 35px solid transparent;
+    border-right: 35px solid transparent;
+}
+#link {
+	width: 1100px;
+	height: 1100px;
+	background-color: none;
+}
+
+

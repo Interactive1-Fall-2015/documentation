@@ -1,0 +1,76 @@
+#container {
+	width: 1300px;
+	height: 20.99999901px;
+	background-color: none;
+	margin: auto;
+}
+#images {
+	width: 1300px;
+	height: 20.99999901px;
+	background-color: none;
+	margin: auto;
+}
+.bodyboard {
+	height: 500px;
+	width: 625px;
+ 	background-image: url(../images/IMG_6913.JPG);
+ 	background-repeat: no-repeat;
+	background-size: contain;
+	float: left;
+}
+.surfer {
+	height: 525px;
+	width: 625px;
+ 	background-image: url(../images/IMG_6902.JPG);
+ 	background-repeat: no-repeat;
+	background-size: contain;
+	float: left;
+}
+.whitespace {
+	width: 50px;
+	height: 400px;
+	float: left;
+	background-color: none;
+}
+.t {
+	height: 800px;
+	width: 20.99999901px;
+	background-color: #D52121;
+	margin-left: 15px;
+	position: absolute;
+}
+.paddle {
+	height: 700px;
+	width: 1000px;
+ 	background-image: url(../images/IMG_7029.JPG);
+ 	background-repeat: no-repeat;
+	background-size: contain;
+	margin: auto;
+	margin-top: 800px;
+}
+.arrow-right {
+		width: 0;
+    height: 0;
+    border-top: 70px solid grey;
+    border-left: 35px solid transparent;
+    border-right: 35px solid transparent;
+    margin-top: 10px;
+    position: absolute;
+}
+.arrow-right:hover {
+border-top: 70px solid #D52121;
+    border-left: 35px solid transparent;
+    border-right: 35px solid transparent;
+}
+#link {
+	background-color: none;
+	margin-top: 1470px;
+	margin-left: 690px;
+
+}
+
+
+
+
+
+

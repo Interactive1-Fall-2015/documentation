@@ -1,82 +1,129 @@
-#margintop { height: 199px;
-		     background-color: white;
+body {
+    background-color: #292929;
+}
+
+#margintop { height: 177px;
+		     background-color: #292929;
 
 }
 
 
-h1 { font-family: 'Abril Fatface', cursive;
-			color: teal;
+h1 { font-family: 'Didot', sans-serif;
+			color: lightgrey;
 			letter-spacing: -1px;
 			font-weight: lighter;
-			font-size: 29px;
+			font-size: 77px;
 			margin-left: 33px;
 			text-decoration: none;
+
+}
+
+.line { width: 800px;
+		height: 1px;
+		background-color: white;
+		margin-left: 22px;
+		margin-top: -20px;
 
 }
 
 h2 { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-			color: teal;
-			font-size: 16px;
+			color: #ff1748;
+			font-size: 20px;
 			margin-left: 33px;
 			text-decoration: none;
+			letter-spacing: -1px;
 }
 
 
 
 .project1 { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-			color: teal;
+			color: white;
 			font-weight: lighter;
-			font-size: 18px;
+			font-size: 20px;
 			margin-left: 33px;
 			text-decoration: none;
+			letter-spacing: 1px;
 
 }
 
 .project2 { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-			color: teal;
+			color: white;
 			font-weight: lighter;
-			font-size: 18px;
+			font-size: 20px;
+			margin-left: 33px;
+			text-decoration: none;
+			letter-spacing: 1px; 
+		}
+
+.project3 { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+			color: white;
+			font-weight: lighter;
+			font-size: 20px;
+			margin-left: 76px;
+			text-decoration: none;
+			letter-spacing: 1px; 
+		}
+
+.project4 { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+			color: white;
+			font-weight: lighter;
+			font-size: 20px;
+			margin-left: 36px;
+			text-decoration: none;
+			letter-spacing: 1px; 
+		}
+
+.project5 { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+			color: white;
+			font-weight: lighter;
+			font-size: 20px;
 			margin-left: 33px;
 			text-decoration: none; 
+			letter-spacing: 1px;
 		}
 
 
 .exercise1 { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-			color: teal;
+			color: white;
 			font-weight: lighter;
-			font-size: 18px;
+			font-size: 20px;
 			margin-left: 33px;
 			text-decoration: none;
+			letter-spacing: 1px;
 		}
 
 .exercise2n3 { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-			color: teal;
+			color: white;
 			font-weight: lighter;
-			font-size: 18px;
+			font-size: 20px;
 			margin-left: 33px;
 			text-decoration: none;
+			letter-spacing: 1px;
 		}
 
 .exercise6 { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-			color: teal;
+			color: white;
 			font-weight: lighter;
-			font-size: 18px;
+			font-size: 20px;
 			margin-left: 33px;
 			text-decoration: none;
+			letter-spacing: 1px;
 		}
 
 .exercise7{ font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-			color: teal;
+			color: white;
 			font-weight: lighter;
-			font-size: 18px;
+			font-size: 20px;
 			margin-left: 33px;
 			text-decoration: none;
+			letter-spacing: 1px;
 		}
 
 .exercise8{ font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-			color: teal;
+			color: white;
 			font-weight: lighter;
-			font-size: 18px;
+			font-size: 20px;
 			margin-left: 33px;
 			text-decoration: none;
+			letter-spacing: 1px;
 		}
