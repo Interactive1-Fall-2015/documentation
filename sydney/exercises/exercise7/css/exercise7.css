@@ -1,0 +1,16 @@
+body {
+	font-style: oblique;
+	color: orange;
+	word-spacing: .5em;
+}
+
+#a {
+	text-decoration: underline;
+	letter-spacing: 4em;
+}
+
+#ah {
+	text-decoration: line-through;
+	text-transform: uppercase;
+	text-shadow: 2px 2px; color:black;
+}

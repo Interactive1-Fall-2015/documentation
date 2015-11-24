@@ -1,0 +1,54 @@
+#all {
+	padding-left: 50px;
+	padding-right: 800px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+#contrast {
+	color: orange;
+}
+
+
+body {
+	background-color: #F0F8FF;
+}
+
+h1 {
+	font-family: helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 40pt;
+	background-color: white;
+}
+
+h5 {
+	font-family: helvetica, sans-serif;
+	font-weight: lighter;
+	font-style: italic;
+	color: #2F4F4F;
+	font-size: 10pt;
+}
+
+h3 {
+	font-family: helvetica, sans-serif;
+	color: black;
+	font-size: 10pt;
+}
+
+h4 {
+	font-family: helvetica, sans-serif;
+	font-weight: bolder;
+	color: #2F4F4F;
+	font-size: 10pt;
+}
+
+
+p {
+	font-family: helvetica, sans-serif;
+	font-size: 10pt;
+}
+
+li {
+	font-family: helvetica, sans-serif;
+	font-size: 10pt;
+}

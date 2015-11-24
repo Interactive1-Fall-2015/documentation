@@ -1,0 +1,156 @@
+#container {
+	width: 1440px;
+	height: 806px;
+	background-color: #BB8A16;
+}
+
+
+
+#text1 {
+	padding-top: 400px;
+	padding-left: 100px;
+	font-family: Helvetica;
+	font-weight: lighter;
+	color: white;
+	opacity: 0.5;
+	text-align: justify;
+	letter-spacing: 80px;
+	line-height: 80px;
+}
+
+
+
+		@keyframes swarm {
+			0% {
+				left: 100px;
+				top: 100px;
+			}
+			25% {
+				left: 400px;
+				top: 50px;
+			}
+			50% {
+				left: 500px;
+				top: 25px;
+			}
+			75% {
+				left: 200px;
+				top:50px;
+			}
+			100% {
+				left: 100px;
+				top:100px;
+			}
+		}
+		@keyframes swarmm {
+			0% {
+				left: 115px;
+				top: 115px;
+			}
+			25% {
+				left: 450px;
+				top: 65px;
+			}
+			50% {
+				left: 565px;
+				top: 40px;
+			}
+			75% {
+				left: 230px;
+				top: 65px;
+			}
+			100% {
+				left: 155px;
+				top: 115px;
+			}
+		}
+		@keyframes swarmmm {
+			0% {
+				left: 130px;
+				top: 130px;
+			}
+			25% {
+				left: 520px;
+				top: 80px;
+			}
+			50% {
+				left: 650px;
+				top: 55px;
+			}
+			75% {
+				left: 260px;
+				top: 80px;
+			}
+			100% {
+				left: 130px;
+				top: 130px;
+			}
+
+		}
+
+
+
+.swarms {
+	margin-left: 100px;
+	font-family: Helvetica;
+	font-weight: lighter;
+	color: black;
+	text-align: center;
+}
+
+			.swarms:hover .swarm1{
+			  animation: swarm 10s linear;
+			  -webkit-animation: swarm 10s linear;
+			  -moz-animation: swarm 10s linear;
+			  -webkit-animation-iteration-count: infinite;
+			  -moz-animation-iteration-count: infinite;
+			}
+			.swarm1 {
+				position: absolute;
+				left:100px;
+				top:100px;
+			}
+
+
+
+			.swarms:hover .swarm2{
+			  animation: swarmm 10s linear;
+			  -webkit-animation: swarmm 10s linear;
+			  -moz-animation: swarmm 10s linear;
+			  -webkit-animation-iteration-count: infinite;
+			  -moz-animation-iteration-count: infinite;
+			}
+			.swarm2 {
+				position: absolute;
+				left:115px;
+				top:115px;
+
+
+
+			}
+
+			.swarms:hover .swarm3{
+			  animation: swarmmm 10s linear;
+			  -webkit-animation: swarmmm 10s linear;
+			  -moz-animation: swarmmm 10s linear;
+			  -webkit-animation-iteration-count: infinite;
+			  -moz-animation-iteration-count: infinite;
+			}
+			.swarm3 {
+				position: absolute;
+				left:130px;
+				top:130px;
+			}
+
+
+
+
+
+a {
+	margin-left: 100px;
+	font-family: Helvetica;
+	font-weight: lighter;
+	color: black;
+	text-decoration: none;
+}
+

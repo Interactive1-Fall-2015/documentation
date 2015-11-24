@@ -1,0 +1,35 @@
+.button {
+  background: black;
+  border-radius: 6px;
+  cursor: pointer;
+  height: 300px;
+  line-height: 95px;
+  text-align: center;
+  transition-property: background;
+  transition-duration: 1s;
+  transition-delay: .2s;
+  transition-timing-function: linear;
+  width: 300px;
+}
+
+.button:hover {
+  background: #ffcc99;
+  border-radius: 10px;
+}
+
+.circle {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  background: #ffcc99;
+  cursor: pointer;
+  transition-property: background;
+  transition-duration: 2s;
+  transition-delay: .4s;
+  transition-timing-function: linear;
+}
+
+.circle:hover {
+  background: black;
+  border-radius: 10px;
+}
