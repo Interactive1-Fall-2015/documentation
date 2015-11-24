@@ -1,0 +1,146 @@
+div {
+		
+		position:fixed;
+	}
+	.outterRing {
+		width:1000px;
+		height:400px;
+		background:#000;
+		top:100px;
+		left:200px;
+		-webkit-border-top-right-radius: 200px;
+		-webkit-border-bottom-right-radius: 200px;
+		
+	}
+	
+	.counterShackle {
+			width:955px;
+			height:320px;
+			background:#fff;
+			top:140px;
+			left:200px;
+			-webkit-border-top-right-radius: 200px;
+			-webkit-border-bottom-right-radius: 200px;
+
+	}
+	
+	.bar {
+		background:#000;
+		
+		height:450px;
+		width:100px;
+	
+		left:100px;
+		top:75px;
+		border-radius:10px;
+	
+	}
+	
+	.skinnyTop-top {
+		width:120px;
+		height:3px;
+		background:white;
+		left:200px;
+		top:100px;
+		z-index:100;
+	}
+	
+	.skinnyTop-bottom {
+		width:120px;
+		height:3px;
+		background:white;
+		left:200px;
+		top:137px;
+		z-index:100;
+	}
+	
+	.skinnyBottom-top {
+		width:50px;
+		height:3px;
+		background:white;
+		left:200px;
+		top:460px;
+		z-index:100;
+	}
+	
+	.skinnyBottom-bottom {
+		width:50px;
+		height:3px;
+		background:white;
+		left:200px;
+		top:497px;
+		z-index:100;
+	}
+	
+	
+	.topOval {
+	width: 100px;
+	height: 100px;
+	background: black;
+	-webkit-border-radius: 200px / 40px;
+	left:100px;
+	top:60px;
+	}
+	
+	.bottomOval {
+		width: 100px;
+		height: 100px;
+		background: black;
+		-webkit-border-radius: 200px / 40px;
+		left:100px;
+		top:450px;
+	}
+
+	
+	.protector {
+			width:120px;
+			height:160px;
+			background:black;
+			left:90px;
+			top:142px;
+			border-radius:20px/10px;
+			border:1px solid #fff;
+	}
+	
+	.topCut {
+		border-radius:20px/40px;
+		width:25px;
+		height:35px;
+		background:black;
+		left:193px;
+		top:102px;
+		border-left:2px solid #fff;
+	}
+	
+	.bottomCut {
+		border-radius:20px/40px;
+		width:25px;
+		height:35px;
+		background:black;
+		left:193px;
+		top:462px;
+		border-left:2px solid #fff;
+	}
+	
+	.topInsideCut {
+		border-radius:20px/40px;
+		width:25px;
+		height:40px;
+		background:black;
+		left:311px;
+		top:100px;
+		border-left:2px solid #fff;
+		z-index:991;
+	}
+	
+	.bottomInsideCut {
+		border-radius:20px/40px;
+		width:25px;
+		height:40px;
+		background:black;
+		left:241px;
+		top:460px;
+		border-left:2px solid #fff;
+		z-index:991;
+	}
+	

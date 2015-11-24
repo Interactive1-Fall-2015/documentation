@@ -1,0 +1,212 @@
+.lefthandle {
+	position: fixed; top: 300px;left: 200px;
+	
+	width: 70px;
+	height: 300px;
+	background: black;
+	-webkit-transform:rotate(15deg);
+	border-bottom-right-radius:15px;
+	border-bottom-left-radius:15px;
+	border-top-left-radius:5px;
+	border-top-right-radius:5px
+}
+
+.grip {
+	position: fixed; top: 300px;left: 228px;
+	
+	width:80px;
+	height: 50px;
+	background: black;
+	-webkit-transform:rotate(15deg);
+	border-bottom-right-radius:5px;
+	border-bottom-left-radius:5px;
+	border-top-left-radius:5px;
+	border-top-right-radius:5px
+}
+
+.grip2 {
+	position: fixed; top: 355px;left: 214px;
+	
+	width:80px;
+	height: 50px;
+	background: black;
+	-webkit-transform:rotate(15deg);
+	border-bottom-right-radius:5px;
+	border-bottom-left-radius:5px;
+	border-top-left-radius:5px;
+	border-top-right-radius:5px
+}
+
+.grip3 {
+	position: fixed; top: 410px;left: 200px;
+	
+	width:80px;
+	height: 50px;
+	background: black;
+	-webkit-transform:rotate(15deg);
+	border-bottom-right-radius:5px;
+	border-bottom-left-radius:5px;
+	border-top-left-radius:5px;
+	border-top-right-radius:5px
+}
+
+
+.grip4 {
+	position: fixed; top: 465px;left: 185px;
+	
+	width:80px;
+	height: 50px;
+	background: black;
+	-webkit-transform:rotate(15deg);
+	border-bottom-right-radius:5px;
+	border-bottom-left-radius:5px;
+	border-top-left-radius:5px;
+	border-top-right-radius:5px
+}
+
+.grip5 {
+	position: fixed; top: 520px;left: 170px;
+	
+	width:80px;
+	height: 50px;
+	background: black;
+	-webkit-transform:rotate(15deg);
+	border-bottom-right-radius:5px;
+	border-bottom-left-radius:5px;
+	border-top-left-radius:5px;
+	border-top-right-radius:5px;
+	border-bottom-color: white 1px;
+	z-index: 1; 
+}
+
+.metalframeleft {
+position: fixed; top: 210px;left: 270px;
+
+width:20px;
+height: 150px;
+background: black;
+-webkit-transform:rotate(15deg);
+	
+}
+
+.circlelarge {
+	width: 100px;
+	height: 100px;
+	background: black;
+	border-radius: 100px;
+	position: fixed; top: 180px;left: 286px;
+}
+
+.circlesmall {
+	width: 70px;
+	height: 70px;
+	background: white;
+	position: fixed; top: 195px;left: 302px;
+	border-radius: 90px;
+	z-index: 900;
+}
+
+.righthandle {
+	position: fixed; top: 300px;left: 400px;
+	
+	width: 70px;
+	height: 300px;
+	background: black;
+	-webkit-transform:rotate(165deg);
+	border-bottom-right-radius:5px;
+	border-bottom-left-radius:5px;
+	border-top-left-radius:15px;
+	border-top-right-radius:15px
+}
+		
+.metalframeright {
+position: fixed; top: 210px;left: 382px;
+
+width:20px;
+height: 150px;
+background: black;
+-webkit-transform:rotate(165deg);
+	
+}		
+
+.grip6 {
+	position: fixed; top: 300px;left: 361px;
+	
+	width:80px;
+	height: 50px;
+	background: black;
+	-webkit-transform:rotate(165deg);
+	border-bottom-right-radius:5px;
+	border-bottom-left-radius:5px;
+	border-top-left-radius:5px;
+	border-top-right-radius:5px
+}
+
+
+.grip7 {
+	position: fixed; top: 355px;left: 375px;
+	
+	width:80px;
+	height: 50px;
+	background: black;
+	-webkit-transform:rotate(165deg);
+	border-bottom-right-radius:5px;
+	border-bottom-left-radius:5px;
+	border-top-left-radius:5px;
+	border-top-right-radius:5px
+}
+
+.grip8 {
+	position: fixed; top: 410px;left: 390px;
+	
+	width:80px;
+	height: 50px;
+	background: black;
+	-webkit-transform:rotate(165deg);
+	border-bottom-right-radius:5px;
+	border-bottom-left-radius:5px;
+	border-top-left-radius:5px;
+	border-top-right-radius:5px
+}
+
+.grip9 {
+	position: fixed; top: 465px;left: 405px;
+	
+	width:80px;
+	height: 50px;
+	background: black;
+	-webkit-transform:rotate(165deg);
+	border-bottom-right-radius:5px;
+	border-bottom-left-radius:5px;
+	border-top-left-radius:5px;
+	border-top-right-radius:5px
+}
+
+.grip10 {
+	position: fixed; top: 520px;left: 420px;
+	
+	width:80px;
+	height: 50px;
+	background: black;
+	-webkit-transform:rotate(165deg);
+	border-bottom-right-radius:5px;
+	border-bottom-left-radius:5px;
+	border-top-left-radius:5px;
+	border-top-right-radius:5px;
+	border-bottom-color: white 1px;
+	z-index: 10; 
+}
+
+.midbeam {
+	width: 160px;
+	height: 5px;
+	background: black;
+	border-radius: 10px ;
+	position: fixed; top: 285px;left: 255px;
+}
+
+.position {
+	z-index: 1;
+	top: 10px;
+	right: 10px;
+}
