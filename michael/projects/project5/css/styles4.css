@@ -1,0 +1,42 @@
+#container {
+	width: 1000px;
+	height: 1000px;
+	background-color: none;
+	margin: auto;
+	margin-top: 100px;
+}
+#iphone {
+	height: 320px;
+	width: 180px;
+	border-radius: 25px;
+	background-color: black;
+	margin: auto;
+}
+#screen {
+	height: 240px;
+	width: 150px;
+	background-color: white;
+	margin: auto;
+	margin-top: -287px;
+}
+#button {
+	margin: 10px auto auto auto;
+	width: 25px;
+	height: 25px;
+	background: white;
+	-moz-border-radius: 12.5px;
+	-webkit-border-radius: 12.5px;
+	border-radius: 12.5px;
+}
+#speaker {
+	margin: -290px auto auto auto;
+	background-color: white;
+    width: 25px;
+    height: 2px; 
+}
+
+
+
+
+
+
