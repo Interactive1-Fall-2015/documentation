@@ -1,11 +1,13 @@
 h1 {
-	font-family: helvetica;
+	font-family: 'Montserrat', sans-serif;
 	font size: 200%;
 	font-style: italic;
 }
 
 p {
-	font-family: helvetica;
+	
+	font-family: 'Montserrat', sans-serif;
+
 }
 
 a{
