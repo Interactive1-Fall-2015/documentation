@@ -4,33 +4,55 @@ body {
     margin: 0px;
     padding: 0px;
     overflow-x: hidden;
-    background-image: url("..images/sunset.jpg");
+    background-image: url("../images/mttam.JPG");
+    background-size: 140%;
     background-repeat: no-repeat;
-
+    background-color: #cccccc;
 }
+ 
 
 h1 {
 	font-family: 'Montserrat', sans-serif;
 	font size: 200%;
 	font-style: italic;
 	color: white;
+	padding-left: 60px;
 }
 
 h2 {
 	font-family: 'Montserrat', sans-serif;
 	font size: 200%;
-	font-style: italic;
+	padding-left: 60px;
+	padding-top: 50px;
 	color: white;
 }
 
 p {
-	
+	padding-left: 60px;
 	font-family: 'Montserrat', sans-serif;
 	color: white;
 
 }
 
-a{
-	color: #468499;
 
+
+a:link {
+    color: #21436c;
+    text-decoration: none;
 }
+
+
+a:visited {
+    color: #21436c;
+}
+
+
+a:hover {
+    color: white;
+}
+
+
+a:active {
+    color: #21436c;
+}
+
