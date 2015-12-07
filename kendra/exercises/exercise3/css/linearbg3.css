@@ -1,0 +1,16 @@
+body {
+	background: #122033;
+	background: linear-gradient(#122033, #ffb793, #c61531 );
+	height: 1000px;
+	
+
+}
+
+p {
+	font-family: helvetica neue;
+	font-style: italic;
+	color: #ffffff;
+	font-size: larger;
+	width: 500px;
+}
+

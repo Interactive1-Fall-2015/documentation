@@ -1,0 +1,34 @@
+body {
+
+	font-style: normal;
+	color: #afb8bc;
+	font-family: 'Roboto Condensed', sans-serif;
+	text-transform: lowercase;
+	text-align: justify;
+}
+
+#smallcaps {
+	font-variant: small-caps;
+	
+	letter-spacing: 2em;
+}
+
+#smallcaps2 {
+	font-variant: small-caps;
+	
+	letter-spacing: 1em;
+}
+
+#fontweight {
+	font-weight: bold;
+	text-decoration: overline;
+}
+
+#decoration: {
+	text-decoration: line-through;
+}
+
+#textshadow {
+	text-shadow: 2px 4px 0px #f4b541;
+	letter-spacing: 2em;
+}

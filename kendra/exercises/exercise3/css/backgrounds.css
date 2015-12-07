@@ -1,0 +1,19 @@
+body {
+	background: #122033;
+	background: linear-gradient(to left, #122033, #ffb793, #a7b3c1 85%, #66cdaa);
+
+	
+
+}
+
+#container {
+	width: 300px;
+	height: 500px;
+}
+
+p {
+	font-family: helvetica neue;
+	font-style: italic;
+	color: #ffffff;
+	font-size: larger;
+}

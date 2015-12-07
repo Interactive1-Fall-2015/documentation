@@ -1,0 +1,31 @@
+body {
+	background: #122033;
+	background: linear-gradient(#122033, #ffb793);
+	height: 1000px;
+	color: #ffffff;
+
+}
+
+p {
+	width: 500px;
+	height: 500px;
+	font-family: Helvetica;
+	font-size: larger;
+}
+
+a:link {
+	color: #ffb793;
+	text-decoration: none;
+}
+
+a:visited {
+	color: #66cdaa;
+}
+
+a:hover {
+	color: #c61531;
+}
+
+a:active {
+	color: #ffffff;
+}

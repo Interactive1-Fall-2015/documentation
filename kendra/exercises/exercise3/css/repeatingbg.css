@@ -1,0 +1,13 @@
+body {
+	background-image: url(file://localhost/Users/kendrameneghetti/Desktop/Interactive%201/exercise8%20-%20setting%20backgrounds/images/whale-landing-hero_61029559.jpg);
+	background-repeat: repeat;
+	background-position: -80px 10px;
+	color: #ffffff;
+}
+
+p {
+	font-family: Helvetica;
+	font-size: larger;
+	width: 500px;
+	color: black;
+}
