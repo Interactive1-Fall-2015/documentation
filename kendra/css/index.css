@@ -4,12 +4,19 @@ body {
     margin: 0px;
     padding: 0px;
     overflow-x: hidden;
-    background-image: url(..images/sunset.jpg);
+    background-image: url("..images/sunset.jpg");
     background-repeat: no-repeat;
 
 }
 
 h1 {
+	font-family: 'Montserrat', sans-serif;
+	font size: 200%;
+	font-style: italic;
+	color: white;
+}
+
+h2 {
 	font-family: 'Montserrat', sans-serif;
 	font size: 200%;
 	font-style: italic;
