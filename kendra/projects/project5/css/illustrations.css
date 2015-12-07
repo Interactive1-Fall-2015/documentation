@@ -1,0 +1,344 @@
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
+#square {
+    height: 400px;
+    width: 400px;
+    background-color: none;
+    position: relative;
+    top: 170px;
+    left: 500px;
+    border: 5px solid #000000;
+}
+
+#notebook {
+	width: 200px;
+	height: 250px;
+	border: 2px solid #73AD21;
+	border-color: black;
+	background-color: none;
+	left: 605px;
+    top: -170px;
+    position: relative;
+
+}
+
+/*
+#space1 {
+	width: 500px;
+	height: 90px;
+	background-color: white;
+}
+*/
+
+#oval {
+    width: 25px;
+    height: 12.5px;
+    border: 2px solid #000000;
+    background: none;
+	-webkit-border-radius: 100px / 50px;
+    -moz-border-radius: 100px / 50px;
+    border-radius: 100px / 50px;
+    left: 590px;
+    top: -400px;
+    position: relative;
+}
+
+#oval2 {
+    width: 25px;
+    height: 12.5px;
+    border: 2px solid #000000;
+    background: none;
+	-webkit-border-radius: 100px / 50px;
+    -moz-border-radius: 100px / 50px;
+    border-radius: 100px / 50px;
+    left: 590px;
+    top: -420px;
+    position: relative;
+}
+
+#oval3 {
+    width: 25px;
+    height: 12.5px;
+    border: 2px solid #000000;
+    background: none;
+	-webkit-border-radius: 100px / 50px;
+    -moz-border-radius: 100px / 50px;
+    border-radius: 100px / 50px;
+    left: 590px;
+    top: -400px;
+    position: relative;
+}
+
+#oval4 {
+    width: 25px;
+    height: 12.5px;
+    border: 2px solid #000000;
+    background: none;
+	-webkit-border-radius: 100px / 50px;
+    -moz-border-radius: 100px / 50px;
+    border-radius: 100px / 50px;
+    left: 590px;
+    top: -412px;
+    transform: rotate(4deg);
+    position: relative;
+}
+
+#oval5 {
+    width: 25px;
+    height: 12.5px;
+    border: 2px solid #000000;
+    background: none;
+    -webkit-border-radius: 100px / 50px;
+    -moz-border-radius: 100px / 50px;
+    border-radius: 100px / 50px;
+    left: 590px;
+    top: -399px;
+    transform: rotate(4deg);
+    position: relative;
+}
+
+#oval6 {
+    width: 25px;
+    height: 12.5px;
+    border: 2px solid #000000;
+    background: none;
+    -webkit-border-radius: 100px / 50px;
+    -moz-border-radius: 100px / 50px;
+    border-radius: 100px / 50px;
+    left: 590px;
+    top: -412px;
+    transform: rotate(4deg);
+    position: relative;
+}
+
+#oval7 {
+    width: 25px;
+    height: 12.5px;
+    border: 2px solid #000000;
+    background: none;
+    -webkit-border-radius: 100px / 50px;
+    -moz-border-radius: 100px / 50px;
+    border-radius: 100px / 50px;
+    left: 590px;
+    top: -400px;
+    position: relative;
+}
+
+#oval8 {
+    width: 25px;
+    height: 12.5px;
+    border: 2px solid #000000;
+    background: none;
+    -webkit-border-radius: 100px / 50px;
+    -moz-border-radius: 100px / 50px;
+    border-radius: 100px / 50px;
+    left: 590px;
+    top: -410px;
+    transform: rotate(-4deg);
+    position: relative;
+}
+
+#oval9 {
+    width: 25px;
+    height: 12.5px;
+    border: 2px solid #000000;
+    background: none;
+    -webkit-border-radius: 100px / 50px;
+    -moz-border-radius: 100px / 50px;
+    border-radius: 100px / 50px;
+    left: 590px;
+    top: -398px;
+    transform: rotate(4deg);
+    position: relative;
+}
+
+
+#oval10 {
+    width: 25px;
+    height: 12.5px;
+    border: 2px solid #000000;
+    background: none;
+    -webkit-border-radius: 100px / 50px;
+    -moz-border-radius: 100px / 50px;
+    border-radius: 100px / 50px;
+    left: 590px;
+    top: -410px;
+    transform: rotate(-4deg);
+    position: relative;
+}
+
+#oval11 {
+    width: 25px;
+    height: 12.5px;
+    border: 2px solid #000000;
+    background: none;
+    -webkit-border-radius: 100px / 50px;
+    -moz-border-radius: 100px / 50px;
+    border-radius: 100px / 50px;
+    left: 590px;
+    top: -400px;
+    transform: rotate(-4deg);
+    position: relative;
+}
+
+
+#oval12 {
+    width: 25px;
+    height: 12.5px;
+    border: 2px solid #000000;
+    background: none;
+    -webkit-border-radius: 100px / 50px;
+    -moz-border-radius: 100px / 50px;
+    border-radius: 100px / 50px;
+    left: 590px;
+    top: -410px;
+    
+    position: relative;
+}
+
+#oval13 {
+    width: 25px;
+    height: 12.5px;
+    border: 2px solid #000000;
+    background: none;
+    -webkit-border-radius: 100px / 50px;
+    -moz-border-radius: 100px / 50px;
+    border-radius: 100px / 50px;
+    left: 590px;
+    top: -400px;
+    position: relative;
+}
+
+#oval14 {
+    width: 25px;
+    height: 12.5px;
+    border: 2px solid #000000;
+    background: none;
+    -webkit-border-radius: 100px / 50px;
+    -moz-border-radius: 100px / 50px;
+    border-radius: 100px / 50px;
+    left: 590px;
+    top: -413px;
+    transform: rotate(-3deg);
+    position: relative;
+}
+
+#rectangle1 {
+    width: 8px;
+    height: 250px;
+    background: none;
+    border-right: 2px solid #000000;
+    border-bottom: 2px solid #000000;
+    left: 807px;
+    top: -660px;
+    position: relative;
+
+
+}
+
+#rectangle2 {
+    width: 1px;
+    height: 211px;
+    background: none;
+    border-left: 2px solid #000000;
+    left: 710px;
+    top: -1014.6px;
+    transform: rotate(88.5deg);
+    position: relative;
+
+
+}
+
+
+#line {
+    width: 1px;
+    height: 155px;
+    background: none;
+    border-left: 2px solid #000000;
+    left: 555px;
+    position: relative;
+    transform: rotate(45deg);
+    top: -1215;
+}
+
+#rectangle3 {
+    width: 20px;
+    height: 140px;
+    background: none;
+    border-left: 2px solid #000000;
+    border-top: 2px solid #000000;
+    border-bottom: 2px solid #000000;
+    left: 580px;
+    top: -1368px;
+    transform: rotate(235deg);
+    position: relative;
+}
+
+/*
+#line2 {
+    width: 1px;
+    height: 210px;
+    background: none;
+    border-left: 2px solid #000000;
+    left: 782px;
+    position: relative;
+    transform: rotate(90deg);
+    top: -1316;
+}
+
+#line3 {
+    width: 1px;
+    height: 220px;
+    background: none;
+    border-left: 2px solid #000000;
+    left: 772px;
+    position: relative;
+    transform: rotate(90deg);
+    top: -1526;
+}
+*/
+
+#arrow {
+    position: relative;
+    font-size: 80;
+    left: 950px;
+    top: -1370px;
+}
+
+#color {
+    width: 200px;
+    height: 255px;
+    border: none;
+    opacity: 0.5;
+    border-color: black;
+    background-color: #21436c;
+    left: 598px;
+    top: -1108px;
+    position: relative;
+}
+
+a:link {
+    color: black;
+    text-decoration: none;
+}
+
+
+a:visited {
+    color: black;
+}
+
+
+a:hover {
+    color: gray;
+}
+
+
+a:active {
+    color: gray;
+}
