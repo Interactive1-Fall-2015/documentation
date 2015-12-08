@@ -4,6 +4,7 @@ Hand hand;
 Rock rock;
 Paper paper;
 Scissor scissor;
+Click click;
 
 void setup() {
   size(1500, 800);
@@ -11,10 +12,11 @@ void setup() {
   rock = new Rock();
   paper = new Paper();
   scissor = new Scissor();
+  click = new Click();
+  background(255);
 }
 
 void draw() {
-  background(255);
   if (mouseY<250){
     hand.display();
    }
@@ -26,6 +28,12 @@ void draw() {
   }
   if (mouseX>1000 && mouseY>250) {
     scissor.display();
+  }
+  if (mousePressed){
+  	click.display();
+  }
+  if (keyPressed == true){
+  	background(255);
   }
 }
 
