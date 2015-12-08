@@ -1,11 +1,13 @@
 <script src="processing.js"></script>
 <script type="text/processing" data-processing-target="mycanvas">
+Hand hand;
 Rock rock;
 Paper paper;
 Scissor scissor;
 
 void setup() {
   size(1500, 800);
+  hand = new Hand();
   rock = new Rock();
   paper = new Paper();
   scissor = new Scissor();
@@ -13,13 +15,16 @@ void setup() {
 
 void draw() {
   background(255);
-  if (mouseX<500) {
+  if (mouseY<250){
+    hand.display();
+   }
+  if (mouseX<500 && mouseY>250) {
     rock.display();
   }
-  if (mouseX>500 && mouseX<1000){
+  if (mouseX>500 && mouseX<1000 && mouseY>250) {
     paper.display();
   }
-  if (mouseX>1000) {
+  if (mouseX>1000 && mouseY>250) {
     scissor.display();
   }
 }
@@ -76,17 +81,17 @@ class Paper {
     float y = mouseY;
     fill(200);
     beginShape();
-    vertex(x-100,y-150);
-    vertex(x-100,y+150);
-    vertex(x+75,y+150); //a
-    vertex(x+100,y+125); //b
-    vertex(x+100,y-150);
+    vertex(x-100, y-150);
+    vertex(x-100, y+150);
+    vertex(x+75, y+150); //a
+    vertex(x+100, y+125); //b
+    vertex(x+100, y-150);
     endShape(CLOSE);
     fill(100);
     beginShape();
-    vertex(x+75,y+150);
-    vertex(x+100,y+125);
-    vertex(x+75,y+125);
+    vertex(x+75, y+150);
+    vertex(x+100, y+125);
+    vertex(x+75, y+125);
     endShape(CLOSE);
   }
 }
@@ -118,20 +123,78 @@ class Scissor {
     endShape(CLOSE);
     fill(255);
     beginShape();
-    vertex(x-60,y+20);
-    vertex(x-100,y+60);
-    vertex(x-60,y+100);
-    vertex(x-20,y+60);
+    vertex(x-60, y+20);
+    vertex(x-100, y+60);
+    vertex(x-60, y+100);
+    vertex(x-20, y+60);
     endShape(CLOSE);
     beginShape();
-    vertex(x-60,y-20);
-    vertex(x-100,y-60);
-    vertex(x-60,y-100);
-    vertex(x-20,y-60);
+    vertex(x-60, y-20);
+    vertex(x-100, y-60);
+    vertex(x-60, y-100);
+    vertex(x-20, y-60);
     endShape(CLOSE);
-    ellipse(x,y,20,20);
+    ellipse(x, y, 20, 20);
   }
 }
-
+class Hand {
+  void display() {
+    stroke(255);
+    fill(244,210,159);
+    float x = mouseX;
+    float y = mouseY;
+    beginShape();
+    vertex(x-100,y+40);
+    vertex(x-60,y+120);
+    vertex(x+60,y+120);
+    vertex(x+100,y+40);
+    vertex(x+100,y-80);
+    vertex(x+60,y-80);
+    vertex(x+60,y-120);
+    vertex(x+20,y-120);
+    vertex(x+20,y-160);
+    vertex(x-20,y-160);
+    vertex(x-20,y-120);
+    vertex(x-60,y-120);
+    vertex(x-60,y-40);
+    vertex(x-100,y-40);
+    endShape(CLOSE);
+    line(x-60,y-40,x-60,y+40);
+    line(x-20,y-120,x-20,y);
+    line(x+20,y-120,x+20,y);
+    line(x+60,y-120,x+60,y);
+  }
+}
+class Click {
+  void display() {
+  	float r = random(0,255);
+  	float g = random(0,255);
+  	float b = random(0,255);
+    stroke(255);
+    fill(r,g,b);
+    float x = mouseX;
+    float y = mouseY;
+    beginShape();
+    vertex(x-100,y+40);
+    vertex(x-60,y+120);
+    vertex(x+60,y+120);
+    vertex(x+100,y+40);
+    vertex(x+100,y-80);
+    vertex(x+60,y-80);
+    vertex(x+60,y-120);
+    vertex(x+20,y-120);
+    vertex(x+20,y-160);
+    vertex(x-20,y-160);
+    vertex(x-20,y-120);
+    vertex(x-60,y-120);
+    vertex(x-60,y-40);
+    vertex(x-100,y-40);
+    endShape(CLOSE);
+    line(x-60,y-40,x-60,y+40);
+    line(x-20,y-120,x-20,y);
+    line(x+20,y-120,x+20,y);
+    line(x+60,y-120,x+60,y);
+  }
+}
 </script>
 <canvas id="mycanvas"></canvas>
