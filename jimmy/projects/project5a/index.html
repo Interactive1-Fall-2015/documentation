@@ -39,7 +39,7 @@ void draw() {
 
 class Rock {
   void display() {
-    noStroke();
+  	stroke(255);
     fill(60);
     beginShape();
     vertex(mouseX, mouseY);
@@ -85,6 +85,7 @@ class Rock {
 }
 class Paper {
   void display() {
+  	stroke(255);
     float x = mouseX;
     float y = mouseY;
     fill(200);
@@ -105,6 +106,7 @@ class Paper {
 }
 class Scissor {
   void display() {
+  	stroke(255);
     float x = mouseX;
     float y = mouseY;
     fill(100);
