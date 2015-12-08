@@ -1,0 +1,137 @@
+<script src="processing.js"></script>
+<script type="text/processing" data-processing-target="mycanvas">
+Rock rock;
+Paper paper;
+Scissor scissor;
+
+void setup() {
+  size(1500, 800);
+  rock = new Rock();
+  paper = new Paper();
+  scissor = new Scissor();
+}
+
+void draw() {
+  background(255);
+  if (mouseX<500) {
+    rock.display();
+  }
+  if (mouseX>500 && mouseX<1000){
+    paper.display();
+  }
+  if (mouseX>1000) {
+    scissor.display();
+  }
+}
+
+class Rock {
+  void display() {
+    noStroke();
+    fill(60);
+    beginShape();
+    vertex(mouseX, mouseY);
+    vertex(mouseX-120, mouseY-40);
+    vertex(mouseX-80, mouseY+40);
+    vertex(mouseX-40, mouseY+40);
+    endShape(CLOSE);
+    fill(40);
+    beginShape();
+    vertex(mouseX, mouseY);
+    vertex(mouseX-40, mouseY+40);
+    vertex(mouseX, mouseY+80);
+    endShape(CLOSE);
+    fill(80);
+    beginShape();
+    vertex(mouseX, mouseY);
+    vertex(mouseX, mouseY+80);
+    vertex(mouseX+80, mouseY+80);
+    vertex(mouseX+120, mouseY+40);
+    endShape(CLOSE);
+    fill(160);
+    beginShape();
+    vertex(mouseX, mouseY);
+    vertex(mouseX, mouseY-40);
+    vertex(mouseX-40, mouseY-120);
+    vertex(mouseX-120, mouseY-40);
+    endShape(CLOSE);
+    fill(180);
+    beginShape();
+    vertex(mouseX, mouseY);
+    vertex(mouseX, mouseY-40);
+    vertex(mouseX+80, mouseY-40);
+    vertex(mouseX+120, mouseY+40);
+    endShape(CLOSE); 
+    fill(200);
+    beginShape();
+    vertex(mouseX, mouseY-40);
+    vertex(mouseX+80, mouseY-40);
+    vertex(mouseX+20, mouseY-100);
+    vertex(mouseX-40, mouseY-120);
+    endShape(CLOSE);
+  }
+}
+class Paper {
+  void display() {
+    float x = mouseX;
+    float y = mouseY;
+    fill(200);
+    beginShape();
+    vertex(x-100,y-150);
+    vertex(x-100,y+150);
+    vertex(x+75,y+150); //a
+    vertex(x+100,y+125); //b
+    vertex(x+100,y-150);
+    endShape(CLOSE);
+    fill(100);
+    beginShape();
+    vertex(x+75,y+150);
+    vertex(x+100,y+125);
+    vertex(x+75,y+125);
+    endShape(CLOSE);
+  }
+}
+class Scissor {
+  void display() {
+    float x = mouseX;
+    float y = mouseY;
+    fill(100);
+    beginShape();
+    vertex(x-20, y-20);
+    vertex(x-80, y+20);
+    vertex(x-120, y+60);
+    vertex(x-120, y+100);
+    vertex(x-60, y+140);
+    vertex(x-20, y+100);
+    vertex(x+20, y+20);
+    vertex(x+140, y-60);
+    endShape(CLOSE);
+    fill(200);
+    beginShape();
+    vertex(x-20, y+20);
+    vertex(x-80, y-20);
+    vertex(x-120, y-60);
+    vertex(x-120, y-100);
+    vertex(x-60, y-140);
+    vertex(x-20, y-100);
+    vertex(x+20, y-20);
+    vertex(x+140, y+60);
+    endShape(CLOSE);
+    fill(255);
+    beginShape();
+    vertex(x-60,y+20);
+    vertex(x-100,y+60);
+    vertex(x-60,y+100);
+    vertex(x-20,y+60);
+    endShape(CLOSE);
+    beginShape();
+    vertex(x-60,y-20);
+    vertex(x-100,y-60);
+    vertex(x-60,y-100);
+    vertex(x-20,y-60);
+    endShape(CLOSE);
+    ellipse(x,y,20,20);
+  }
+}
+
+</script>
+<canvas id="mycanvas"></canvas>
