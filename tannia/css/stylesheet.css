@@ -1,48 +1,35 @@
-body {
-	width: 100%;
-	margin: auto;
+ul {
+	list-style: none;
+	background-color: black;
 }
 
-.left {
-	width: 30%;
-	height: 100%;
-	text-align: center;
-	/*background: pink;*/
-	float: left;
-}
-
-.right {
-	width: 70%;
-	height: 100%;
-	/*background: yellow;*/
-	float: right;
-}
-
-#projects {
-	margin-top: 400px;
-}
-
-#exercises {
-	margin-top: 50px;
+h1 {
+	font-family: 'Avenir';
 }
 
 h3 {
 	font-family: 'Avenir';
-	font-size: 40px;
-	margin-top: 100px;
 }
 
-h5 {
-	top: 0;
-	font-family: 'Avenir';
-	font-size: 15px;
+h4 {
+	font-family: 'Avenir'; 
+	font-size: 20px;
 }
 
 a {
+	color: white;
 	text-decoration: none;
-	padding-left: 30px;
 }
 
-a:hover {
+a: hover {
 	color: orange;
+}
+
+img {
+	width: 50%;
+	float: left;
+}
+
+#header {
+	text-align: right;
 }
