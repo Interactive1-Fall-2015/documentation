@@ -18,7 +18,7 @@ body {
     position: relative;
     top: 170px;
     left: 500px;
-    border: 5px solid #000000;
+    border: 0px solid #000000;
 }
 
 #line1 {
@@ -552,11 +552,13 @@ p.and2 {
 
 }
 
-#arrow {
+ #arrow {
     position: relative;
-    font-size: 80;
+    font-size: 50;
+    font-family: 'Roboto', sans-serif;
     left: 950px;
-    top: -2425px;
+    top: -2376px;
+    font-weight: lighter;
 }
 
 a:link {

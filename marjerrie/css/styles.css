@@ -4,7 +4,7 @@ p{
 
 #name{
 	height: 10px;
-	width: 500px;
+	width: 10px;
 	left: 50px;
 	position: fixed;
 }
@@ -47,14 +47,14 @@ p{
 #exercises{
 	border: 2px solid #1f3e7a;
 	border-radius: 5%;
-	height: 335px;
+	height: 250px;
 	width: 215px;
 	position: absolute;
 	top: 150px;
 	left: 290px;
 }
 
-#codecademy{
+#documentation{
 	border: 2px solid #1f3e7a;
 	border-radius: 5%;
 	height: 250px;

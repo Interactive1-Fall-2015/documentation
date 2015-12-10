@@ -13,7 +13,7 @@ body {
     position: relative;
     top: 170px;
     left: 500px;
-    border: 5px solid #000000;
+    border: 0px solid #000000;
 }
 
 #oval1 {
@@ -628,9 +628,11 @@ body {
 
 #arrow {
     position: relative;
-    font-size: 80;
+    font-size: 50;
+    font-family: 'Roboto', sans-serif;
     left: 950px;
-    top: -2643px;
+    top: -2593px;
+    font-weight: lighter;
 }
 
 a:link {

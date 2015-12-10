@@ -17,17 +17,23 @@ body {
 }
 
 p.art {
-    font-size: 130;
-    font-family: Helvetica;
+    font-size: 17;
+    font-family: 'Roboto', sans-serif;
+    font-weight: light;
     text-align: center;
+    position: relative;
+    top: 350px;
+    letter-spacing: 0.5;
 }
 
 
 #arrow {
     position: relative;
-    font-size: 80;
+    font-size: 50;
+    font-family: 'Roboto', sans-serif;
     left: 950px;
-    top: -167px;
+    top: 262px;
+    font-weight: lighter;
 }
 
 a:link {
