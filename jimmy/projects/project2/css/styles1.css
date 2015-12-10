@@ -1,0 +1,18 @@
+
+body{
+	background-image: url(http://media.cargocollective.com/1/12/384131/headerimg/22.gif);
+}
+div {
+	position: relative;
+	top: 250px;
+	width: 450px;
+	min-height: 100%;
+	background-color: #9ADDDD;
+	margin: auto;
+	padding: 2em;
+	text-align: center;
+}
+a {
+	font-weight: bold;
+	text-decoration: none;
+}
