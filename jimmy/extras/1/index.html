@@ -1,0 +1,106 @@
+<title>2D Cubes</title>
+<link rel="stylesheet" type="text/css" href="styles.css">
+<script src="processing.js"></script>
+<script type="text/processing" data-processing-target="mycanvas">
+int num=256;
+float x = 0;
+float y = 0;
+
+Cube[] cube = new Cube[num];
+
+void setup() {
+  size(600, 600);
+  for (int i = 0; i<num; i++) {
+    cube[i] = new Cube(x, y);
+    x +=40;
+    if (x>width) {
+      x=0;
+      y+=40;
+    }
+  }
+}
+void draw() {
+  background(0);
+  for (int i = 0; i<cube.length; i++) {
+    cube[i].display();
+  }
+}
+
+class Cube {
+  float x;
+  float y;
+  int w = 9;
+  Cube(float tempX, float tempY) {
+    x=tempX;
+    y=tempY;
+  }
+  void display() {
+    noStroke();
+    float xpos=map(mouseX, 0, width, x-8, x+8);
+    float ypos=map(mouseY, 0, height, y-8, y+8);
+    if (xpos+w >= x+8 && ypos+w <= y+8) {
+      fill(160);
+      beginShape();
+      vertex(x+10, y-10);
+      vertex(x+10, y+10);
+      vertex(xpos+w, ypos+w);
+      vertex(xpos+w, ypos-w);
+      endShape(CLOSE);
+      beginShape();
+      vertex(x-10, y-10);
+      vertex(x+10, y-10);
+      vertex(xpos+w, ypos-w);
+      vertex(xpos-w, ypos-w);
+      endShape(CLOSE);
+    } else if (xpos+w >= x+8 && ypos+w >= y+8) {
+      fill(100);
+      beginShape();
+      vertex(x-10, y+10);
+      vertex(x+10, y+10);
+      vertex(xpos+w, ypos+w);
+      vertex(xpos-w, ypos+w);
+      endShape(CLOSE);
+      fill(160);
+      beginShape();
+      vertex(x+10, y-10);
+      vertex(x+10, y+10);
+      vertex(xpos+w, ypos+w);
+      vertex(xpos+w, ypos-w);
+      endShape(CLOSE);
+    } else if (xpos-w <= x-8 && ypos+w >= y+8) {
+      fill(100);
+      beginShape();
+      vertex(x-10, y+10);
+      vertex(x+10, y+10);
+      vertex(xpos+w, ypos+w);
+      vertex(xpos-w, ypos+w);
+      endShape(CLOSE);
+      beginShape();
+      vertex(x-10, y-10);
+      vertex(x-10, y+10);
+      vertex(xpos-w, ypos+w);
+      vertex(xpos-w, ypos-w);
+      endShape(CLOSE);
+    } else if (xpos-w <= x-8 && ypos-w <= y-8) {
+      fill(100);
+      beginShape();
+      vertex(x-10, y-10);
+      vertex(x-10, y+10);
+      vertex(xpos-w, ypos+w);
+      vertex(xpos-w, ypos-w);
+      endShape(CLOSE);
+      fill(160);
+      beginShape();
+      vertex(x-10, y-10);
+      vertex(x+10, y-10);
+      vertex(xpos+w, ypos-w);
+      vertex(xpos-w, ypos-w);
+      endShape(CLOSE);
+    }
+    fill(255);
+    rectMode(CENTER);
+    rect(x, y, 20, 20);
+  }
+}
+</script>
+<div><canvas id="mycanvas"></canvas></div>

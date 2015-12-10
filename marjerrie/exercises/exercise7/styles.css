@@ -1,0 +1,28 @@
+body{
+	font-family: Arial;
+}
+
+h1{
+	font-style: oblique;
+}
+
+h2{
+	word-spacing: 4em;
+}
+
+h6{
+	font-size: inherit;
+	color: green;
+	text-decoration: line-through;
+}
+
+i{
+	font-variant: small-caps;
+	font-weight: lighter;
+	text-decoration: underline;
+}
+
+<h5{
+	text-transform: calpitalize;
+	text-shadow: 4px 7px 2 px #334563;
+}

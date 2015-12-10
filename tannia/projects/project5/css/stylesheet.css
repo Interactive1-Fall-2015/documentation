@@ -1,0 +1,141 @@
+body {
+	width: 100%;
+	height: 100%;
+	margin: auto;
+	background-color: black;
+}
+
+#container {
+	height: 400px;
+}
+
+#rabbit {
+	width: 300px;
+	height: 300px;
+	margin: 80px auto 0px auto;
+	position: relative;
+}
+
+#ears {
+	width: 300px;
+	height: 50px;
+	margin: 0px 37px;
+}
+
+#left_ear {
+}
+
+#right_ear {
+}
+
+.outside_ear {
+	background-color: red;
+	width: 50px;
+	height: 150px;
+	border-radius: 70%;
+	margin: 0px 30px;
+	float: left;
+}
+
+.outside_ear:hover {
+    background-color: yellow;
+}
+
+.inside_ear {
+	background-color: white;
+	width: 30px;
+	height: 100px;
+	border-radius: 70%;
+	margin: 30px 10px;
+	float: left;
+	z-index: 1;
+}
+
+#whole_face {
+}
+
+#face {
+	background-color: red;
+	width: 200px;
+	height: 140px;
+	margin: 80px 46px;
+	border-radius: 70%;
+}
+
+#eyes {
+	width: auto;
+	height: 50px;
+	margin: 0px 20px;
+}
+
+#left_eye {  
+}
+
+#right_eye {
+}
+
+.outside_eye {
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	margin: 0px 15px;
+	background-color: black;
+	float: left;
+	z-index: 1;
+}
+
+.outside_eye:hover {
+    background-color: yellow;
+}
+
+.inside_eye {
+	width: 35px;
+	height: 35px;
+	border-radius: 50%;
+	margin: 7px;
+	background-color: white;
+	float: left;
+	z-index: 2;
+}
+
+#mouth {
+	width: 150px;
+	height: 90px;
+	margin: 25px 25px 0px 25px;
+	border-radius: 0px 0px 90px 90px;
+	border-bottom: solid gray 1px;
+	background-color: black;
+	z-index: 1;
+}
+
+#mouth:hover {
+    background-color: yellow;
+}
+
+#teeth {
+	margin: 0px 35px;
+	z-index: 2;
+}
+
+.teeth {
+	width: 20px;
+	height: 35px;
+	margin: 0px 10px;
+	float: left;
+	background-color: white;
+}
+
+h1 {
+	text-align: center;
+	font-family: 'Jolly Lodger';
+	font-size: 45px;
+}
+
+a {
+	text-decoration: none;
+	color: red;
+}
+
+a:hover {
+	color: yellow;
+}
