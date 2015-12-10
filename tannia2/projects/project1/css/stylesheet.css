@@ -1,0 +1,113 @@
+#background {
+	width: 710px;
+	height: 1003px;
+	background-color: black;
+	margin: auto;
+}
+
+#box_topleft {
+	width: 229px;
+	height: 697px;
+	border-right: 5px solid white;
+	float: left;
+}
+
+#box_topright {
+	width: 475px;
+	height: 668px;
+	border-bottom: 5px solid white;
+	float: left;
+}
+
+#box_bottomleft {
+	width: 530px;
+	height: 297px;
+	border-top: 5px solid white;
+	float: left;
+}
+
+.cca {
+	color: white;
+	font-size: 17px;
+	margin: 270px auto 30px 5px;
+}
+
+#box_bottomright {
+	width: 174px;
+	height: 306px;
+	border-left: 5px solid white;
+	float: left;
+}
+
+.artist {
+	color: white;
+	font-size: 13px;
+	margin: 208px -65px auto auto;
+	width: 160px;
+	transform: rotate(-90deg);
+}
+
+#red_block {
+	width: 147px;
+	height: 25px;
+	background-color: #CB2905;
+	border-right: 6px solid white;
+	float: left; 
+}
+
+#green_block1 {
+	width: 12px;
+	height: 25px;
+	background-color: #598141;
+	border-right: 6px solid white;
+	float: left; 
+}
+
+#green_block2 {
+	width: 7px;
+	height: 25px;
+	background-color: #598141;
+	border-right: 19px solid white;
+	float: left;
+}
+
+#yellow_block {
+	width: 24px;
+	height: 25px;
+	background-color: #F7C804;
+	border-right: 6px solid white;
+	float: left;
+}
+
+#purple_block {
+	width: 69px;
+	height: 25px;
+	background-color: #593E98;
+	border-right: 6px solid white;
+	float: left;
+}
+
+#jsm {
+	color: white;
+	margin: 350px auto auto 12px;
+	float: left;
+	font-size: 18px;
+}
+
+#text {
+	color: white;
+	margin: 273px auto auto 68px;
+	float: left;
+	font-size: 18px;
+}
+
+.liberty {
+	color: white;
+	text-align: right;
+	margin: -12px 5px auto auto;
+	font-size: 14px;
+}
+
+p {
+	font-family: Helvetica;
+}

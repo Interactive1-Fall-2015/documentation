@@ -1,0 +1,47 @@
+body {
+	background-color: #DEE3E0;
+}
+
+h1 {
+	font-family: Futura, sans-serif;
+	text-align:center;
+	background-color: black;
+	font-size: 40px;
+	color: #ECB800;
+	font-style: italic;
+	padding: 30px;
+}
+
+h4 {
+	font-family: Helvetica, sans-serif;
+	color: #0F5738;
+}
+
+h5 {
+	font-size: 17px;
+	color: #EBB600;
+	font-family: "Big Caslon";
+}
+
+p {
+	font-family:Arial, sans-serif;
+	color:black;
+	text-align: justify;
+	font-size: 14px;
+}
+
+ul {
+	color:#07CB72;
+}
+
+#section {
+	width: 1100px;
+	margin-left: 80px;
+	margin-right: 80px;
+}
+
+#article {
+	margin-left: 80px;
+	margin-right: 80px;
+	margin-top: 80px;
+}
