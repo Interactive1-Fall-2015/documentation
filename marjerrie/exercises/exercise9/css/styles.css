@@ -1,0 +1,30 @@
+/*
+
+table {
+  border-collapse: collapse;
+}
+
+th,
+td {
+  border-bottom: 1px solid #cecfd5;
+  padding: 10px 15px;
+}
+
+*/
+
+ol {
+	list-style: upper-alpha;
+}
+
+ul {
+	list-style: square;
+}
+
+input {
+	font-size: 12px;
+	color: #000000;
+	background-color: #ffffff;
+	border: 1px solid #bedfff;
+	border-radius: 5px;
+	padding: 5px 5px 5px 30px;
+}

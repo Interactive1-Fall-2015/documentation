@@ -1,0 +1,38 @@
+body{
+	height: 1000px;
+	background: linear-gradient(#F5A9BC, #E2A9F3, #A9D0F5);
+}
+
+p{
+	font-family: Helvetica, Arial, sans-serif;
+	color: black;
+	text-align: center;
+}
+
+#box{
+	width: 500px;
+	height: 260px;
+	background-color: white;
+	padding-left: 30px;
+	padding-top: 30px;
+	padding-right: 30px;
+	margin-top: 30px;
+	margin: auto;
+}
+
+a:link{
+	color:#A9D0F5;
+	text-decoration: none;
+}
+
+a:visited{
+	color: #F5A9BC;
+}
+
+a:hover{
+	color: #A9F5A9;
+}
+
+a:active{
+	color: #58ACFA;
+}
